@@ -84,4 +84,10 @@ html {
   background-color: #f5f5f5;
   flex: 1;
 }
+.with-shadow {
+  box-shadow: 0 6px 20px rgba(180, 180, 180, 0.5);
+}
+.with-shadow:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
 </style>
