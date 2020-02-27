@@ -86,6 +86,9 @@ sw.*
 # Mac OSX
 .DS_Store
 
+# VsCode
+.vscode
+
 # Vim swap files
 *.swp
 
