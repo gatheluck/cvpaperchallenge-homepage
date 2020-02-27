@@ -1,5 +1,5 @@
 <template>
-  <div>
+<div>
     <h2>What's New</h2>
     <b-list-group v-if="!isLoading" class="mt-4">
       <b-list-group-item
@@ -18,10 +18,7 @@
         </b-row>
       </b-list-group-item>
     </b-list-group>
-
-
-  </div>
-  
+</div>  
 </template>
 
 <script>
