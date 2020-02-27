@@ -19,7 +19,7 @@
     <b-container>
       <div class="mt-4">
         <h2>メンバー募集</h2>
-        <p class="text-justify">cvpaper.challengeではCV分野のサーベイ・研究を実施するメンバーを募集しています。サーベイメンバーはトップ会議の網羅的サーベイを始めとした研究のトレンドを把握、2019年はCVPR 2019 網羅的サーベイを実施します。研究メンバーは新しいトレンドを創るべく研究活動を行います。2019年の目標はGoogle Scholar TOP20にリストアップされているトップ国際会議/ジャーナルに30本以上投稿することです！現在までに研究員に限らずポスドク・学生を中心としたプロジェクトでCVPR/ICCV/ICRAなどのトップ国際会議に投稿し、査読を突破して来ました。今後さらに活動を加速させるためにも、学生、ポスドク、研究員、教員、研究連携などを募集します。コンピュータビジョン分野以外の研究者からのご連絡も歓迎致します。</p>
+        <p class="text-justify">cvpaper.challenge では CV 分野のサーベイ・研究を実施するメンバーを募集しています。<span class="font-weight-bold">サーベイメンバー</span>は CVPR 2020 網羅的サーベイなどのトップ会議のサーベイを通した<span class="font-weight-bold">研究のトレンドの把握</span>を行います。研究メンバーは新しいトレンドを創るべく研究活動を行います。2020年の目標は「<span class="font-weight-bold">Google Scholar TOP20 にリストアップされている国際会議/ジャーナルに30本以上投稿。そのうち Top-tier 国際会議には15本以上投稿し5本以上を採択されること。</span>」です！現在までに研究員に限らずポスドク・学生を中心としたプロジェクトで CVPR/ICCV/ICRA などのトップ国際会議に投稿し、査読を突破して来ました。今後さらに活動を加速させるためにも、学生、ポスドク、研究員、教員、研究連携などを募集します。コンピュータビジョン分野以外の研究者からのご連絡も歓迎致します。</p>
         <hr class="my-4">
       </div>
       
@@ -42,8 +42,13 @@
             <li class="text-justify mt-1">大学や研究所のご所属がある方が研究メンバーとして参加しやすいです。指導教員がいらっしゃる場合には予めご相談の上で許可を頂いてからcvpaper.challengeの研究メンバーとしてご参加ください。</li>
             <li class="text-justify mt-1">企業の方の場合には共同研究やその他の連携方法を探る傾向にあります。やはり主宰の片岡までご相談ください。</li>
             <li class="text-justify mt-1">研究メンバーは基本的に2〜5人単位の研究グループで活動しており、実働メンバーのみでなく研究アドバイザとしてもご参加可能です。</li>
+            <li class="text-justify mt-1">研究メンバーになることの利点や活動の具体例は</li>
             <li class="text-justify mt-1">産総研所属となり、より積極的に研究グループの活動を行いたいという場合には産総研インターン/リサーチアシスタント（RA）/ポスドクとしての募集もございます。下記の<a href="#aist_recruitment">産総研の公募</a>をご確認ください。（もちろん一般公募としての応募となるため、審査の上で決定します。優先的に/無条件で採用できるわけではございません。）</li>
           </ul>
+
+          <!-- <div class="">
+            <iframe src="//www.slideshare.net/slideshow/embed_code/key/gHfXCXwOsl2yxZ" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cvpaperchallenge/adversarial-examples-229232499" title="Adversarial Examples 分野の動向（メタサーベイ追加版）" target="_blank">Adversarial Examples 分野の動向（メタサーベイ追加版）</a> </strong> from <strong><a href="//www.slideshare.net/cvpaperchallenge" target="_blank">cvpaper. challenge</a></strong> </div>
+          <div> -->
         <hr class="my-4">
       </div>
 
@@ -119,17 +124,17 @@
       <div class="mt-4">
         <h2>Q&A</h2>
         <ul>
-          <li class="text-justify mt-2"><span class="font-weight-bold">メンバーはどのくらいいるの？</span>：2019年4月現在、サーベイメンバー170名超、研究メンバーが約50名います。研究グループは合計で24グループあります。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">サーベイについてノルマはある？</span>：サーベイ用Slackのチャンネルを閲覧するだけでしたら個人としてのノルマは発生しません。ですが、せっかくでしたら有志メンバーとしてご参加頂き、論文サマリを作成して議論するのが論文調査の効果が大きいです。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">メンバーはどのくらいいるの？</span>：2020年2月現在、サーベイメンバー360名超、研究メンバーが約50名います。研究グループは合計で8グループあります。</li>
+          <!-- <li class="text-justify mt-2"><span class="font-weight-bold">サーベイについてノルマはある？</span>：サーベイ用Slackのチャンネルを閲覧するだけでしたら個人としてのノルマは発生しません。ですが、せっかくでしたら有志メンバーとしてご参加頂き、論文サマリを作成して議論するのが論文調査の効果が大きいです。</li> -->
           <li class="text-justify mt-2"><span class="font-weight-bold">研究はどうやって進める？</span>：多数の論文をインプットとして、ブレストによるアイディア考案とディスカッションを繰り返し研究テーマを設定しています。大枠の研究テーマ毎に研究グループとして複数人で研究を効率的に進めていきます。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">どうやってまとめればよい？</span>：各リーダーが運営する勉強会により異なりますが、Google DriveやGitHub、手元のPPTファイルにより共有することが多いです。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">ツライんじゃない？</span>：サーベイや研究はツラいですが、それ以上に研究コミュニティへの参加を通してその面白さを知って欲しいと思ってます。コミュニティにはモチベーションの高いメンバー同士がディスカッションしているため、メンバーの声を聞いてみると驚くほどモチベーションが高いです。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">ツライんじゃない？</span>：サーベイや研究はツラいですが、それ以上に研究コミュニティへの参加を通してその面白さを知って欲しいと思ってます。コミュニティではモチベーションの高いメンバー同士がディスカッションしているため、メンバーの声を聞いてみると驚くほどモチベーションが高いです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">みんなどのくらい読んでいる？</span>：人により異なります。年間数本から、一番多く読んでいる学生さんで年間数百本以上読んでいます。学部生で月80本読んだ、という学生さんもいますがご自身のペースで進めるのが良いです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">求める人材像は？</span>：モチベーションが高い人を求めていますが、さらにこれまでの取り組みの中で「返信が早い」「自ら提案できる」人はサーベイや研究の進度が速い傾向にあります。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーは選抜あるの？</span>：能力による選抜はありません。しかし、特に学生さんで研究室の指導教員がいらっしゃる場合には研究室との関係性が良好であるかどうかが重要です。例えば、多くの研究メンバーは卒・修・博論になるようなメイン研究が問題なく進んでいるという前提で、その上でcvpaper.challengeの研究メンバーとしてグループ研究を実施しています。さらに、研究室以外に研究コミュニティに参加するということに対してご理解があることが望ましいです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">プログラミングできなくても研究メンバーになれる？</span>：なれます。ご自身で実装ができるに越したことはありませんが、研究室配属後ゼロから勉強して約半年で国際会議の論文に採択されたという例もございます。研究プロジェクト内でゼロから勉強することも可能です。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">今までの実績について教えて！</span>：現在までにGoogle Scholar TOP20にリストアップされている論文に20本以上採択されています（TOP-1のCVPRやICRAにも複数本の論文が採択）。また、論文サマリは4,000本以上ございます。詳細は<nuxt-link to="/resources">リソースページ</nuxt-link>をご確認ください。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーとしての目標は？</span>：2019年はGoogle Scholar TOP20にリストアップされている国際会議/ジャーナルに30本以上投稿することを目標として掲げています。30本以上「投稿」という目標は論文を執筆して投稿するまでの経験を重ねるために設けましたが、もちろん全て査読突破できるレベルまで持っていけるよう完成度を高める工夫を行っています。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーとしての目標は？</span>：2020年は「Google Scholar TOP20 にリストアップされている国際会議/ジャーナルに30本以上投稿。そのうち Top-tier 国際会議には15本以上投稿し5本以上を採択されること。」を目標として掲げています。「30本以上投稿」という目標は論文を執筆して投稿するまでの経験を重ねるために設けましたが、もちろん全て査読突破できるレベルまで持っていけるよう内部査読などの完成度を高める工夫を行っています。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">コンピュータビジョンが専門ではないんだけど大丈夫？</span>：コンピュータビジョンや他分野の融合により大きなインパクトを生み出した、という例は少なくないです。他分野の方も大歓迎です！</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">大学や企業、研究機関をまたいだ横のつながりはないの？</span>：サーベイメンバーに関しては、所属機関の制約は設けておりません。勉強会や情報共有チャンネルを立ち上げてディスカッションを行なっています。新しい勉強会やサーベイプロジェクト、懇親会やイベント等、積極的に企画してください。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold"><a href="http://xpaperchallenge.org/nlp/">nlpaper.challenge</a>や<a href="https://sites.google.com/view/robotpaperchallenge/home">robotpaper.challenge</a>との関係性は？</span>：研究コミュニティ名は異なりますが、基本的には連携して活動しています。これらの研究コミュニティと連携して網羅的サーベイや研究プロジェクトを加速させていきたいです。</li>
