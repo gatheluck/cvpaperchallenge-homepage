@@ -2,7 +2,7 @@
   <b-card 
   v-bind:title="slide.title"
   v-bind:sub-title="slide.authors"
-  class="mt-2">
+  class="mt-2 with-shadow">
     <!-- urls of slide / event --> 
     <a v-if="slide.url!=''" v-bind:href="slide.url" :class="card-link">[Slide]</a>
   </b-card>
