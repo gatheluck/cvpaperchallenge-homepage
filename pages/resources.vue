@@ -11,6 +11,7 @@
       <template slot="lead">
         <b-container>
           <div class="text-center">
+            サーベイ資料等を公開しております。
           </div>
         </b-container>
       </template>
@@ -108,8 +109,8 @@ export default {
   asyncData() {
     let slides = require('~/static/data/slides.json').content;
     let talks = require('~/static/data/talks.json').content;
-    let slidesPerPage = 3;
-    let talksPerPage = 3;
+    let slidesPerPage = 4;
+    let talksPerPage = 4;
     let slidesNumPage = Math.ceil(Math.ceil(slides.length/2)/slidesPerPage);
     let talksNumPage = Math.ceil(Math.ceil(talks.length/2)/talksPerPage);
     return {
