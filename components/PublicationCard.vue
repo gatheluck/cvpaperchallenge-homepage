@@ -2,7 +2,7 @@
   <b-card 
   v-bind:title="publication.title"
   v-bind:sub-title="publication.authors"
-  class="mt-2">
+  class="mt-2 with-shadow">
 
     <!-- infomation of conference / journal / workshop -->  
     <a v-bind:href="publication.conference_url">
