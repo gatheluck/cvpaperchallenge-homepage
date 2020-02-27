@@ -20,8 +20,8 @@
     </b-jumbotron>
 
     <b-container v-if="!isLoading">
-      <b-row v-for="([ member1, member2 ], idx) in memberPairs" :key="idx" class="mb-4">
-        <b-col class="mb-4" cols="12" md="6">
+      <b-row v-for="([ member1, member2 ], idx) in memberPairs" :key="idx" class="mb-2">
+        <b-col class="mb-2" cols="12" md="6">
           <member-card :member="member1"/>
         </b-col>
         <b-col v-if="member2">
