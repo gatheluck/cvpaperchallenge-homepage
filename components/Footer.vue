@@ -13,7 +13,8 @@
           </a>
       </div>
     </div>
-    <div class="bg-info">
+
+    <div class="bg-info bg-dark text-light">
         <h5 class="text-center pt-2 pb-2 mb-0">&copy;2020 cvpaper.challenge</h5>
     </div>
   </footer>
