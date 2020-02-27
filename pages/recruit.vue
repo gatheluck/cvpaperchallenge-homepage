@@ -19,14 +19,14 @@
     <b-container>
       <div class="mt-4">
         <h2>メンバー募集</h2>
-        <p class="text-justify">cvpaper.challenge では CV 分野のサーベイ・研究を実施するメンバーを募集しています。<span class="font-weight-bold">サーベイメンバー</span>は CVPR 2020 網羅的サーベイなどのトップ会議のサーベイを通した<span class="font-weight-bold">研究のトレンドの把握</span>を行います。研究メンバーは新しいトレンドを創るべく研究活動を行います。2020年の目標は「<span class="font-weight-bold">Google Scholar TOP20 にリストアップされている国際会議/ジャーナルに30本以上投稿。そのうち Top-tier 国際会議には15本以上投稿し5本以上を採択されること。</span>」です！現在までに研究員に限らずポスドク・学生を中心としたプロジェクトで CVPR/ICCV/ICRA などのトップ国際会議に投稿し、査読を突破して来ました。今後さらに活動を加速させるためにも、学生、ポスドク、研究員、教員、研究連携などを募集します。コンピュータビジョン分野以外の研究者からのご連絡も歓迎致します。</p>
+        <p class="text-justify">cvpaper.challenge では CV 分野のサーベイ・研究を実施するメンバーを募集しています。<span class="font-weight-bold">サーベイメンバー</span>は CVPR 2020 網羅的サーベイなどのトップ会議のサーベイを通した<span class="font-weight-bold">研究のトレンドの把握</span>を行います。研究メンバーは新しいトレンドを創るべく研究活動を行います。2020年の目標は「<span class="font-weight-bold">Google Scholar TOP20 にリストアップされている国際会議 / ジャーナルに30本以上投稿すること</span>」です！現在までに研究員に限らずポスドク・学生を中心としたプロジェクトで CVPR/ICCV/ICRA などのトップ国際会議に投稿し、査読を突破して来ました。今後さらに活動を加速させるためにも、学生、ポスドク、研究員、教員、研究連携などを募集します。コンピュータビジョン分野以外の研究者からのご連絡も歓迎致します。</p>
         <hr class="my-4">
       </div>
       
 
       <div class="mt-4">
         <h2>参加形式</h2>
-        <p class="text-justify">cvpaper.challengeの参加形式は大きく分けて２種類、<a href="#survey_member">(1)サーベイメンバー</a>、<a href="#research_member">(2)研究メンバー</a>としてのご参加が可能です。下記にその2種類の参加形式を記載します。</p>
+        <p class="text-justify">cvpaper.challenge の参加形式は大きく分けて２種類、<a href="#survey_member">(1)サーベイメンバー</a>、<a href="#research_member">(2)研究メンバー</a>としてのご参加が可能です。下記にその2種類の参加形式を記載します。</p>
         <h5 class="mt-4" id="survey_member">(1) サーベイメンバー</h5>
           <ul>
             <li class="text-justify mt-1"><span class="font-weight-bold">どなたでも</span>ご参加頂けます。</li>
@@ -54,7 +54,7 @@
 
       <div class="mt-4">
         <h2 id="aist_recruitment">産総研の公募</h2>
-        <p class="text-justify">cvpaper.challengeの主要メンバーに産総研研究員がいる関係で、産総研の各種制度を利用して研究に参加することが可能です。具体的には、以下の3つの形態でメンバーを募集しています。</p>
+        <p class="text-justify">cvpaper.challenge の主要メンバーに産総研研究員がいる関係で、産総研の各種制度を利用して研究に参加することが可能です。具体的には、以下の3つの形態でメンバーを募集しています。</p>
         
         <h5 class="mt-4">(a) 産総研インターン（技術研修員制度）</h5>
         <ul>
@@ -79,7 +79,7 @@
         </ul>
         <h5 class="mt-4">(c) 産総研ポスドク</h5>
         <ul>
-          <li class="text-justify mt-1"><span class="font-weight-bold">概要</span>：産総研ポスドクとして産総研に所属し、産総研のリソースを使いながら研究立案、実験、論文執筆、投稿を行うことができます。雇用プロジェクトの研究に従事しつつcvpaper.challengeメンバーと独自の研究をすることができます。雇用可能なプロジェクトの有無や研究内容は場合により異なるのでお問い合わせください。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">概要</span>：産総研ポスドクとして産総研に所属し、産総研のリソースを使いながら研究立案、実験、論文執筆、投稿を行うことができます。雇用プロジェクトの研究に従事しつつ cvpaper.challenge メンバーと独自の研究をすることができます。雇用可能なプロジェクトの有無や研究内容は場合により異なるのでお問い合わせください。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">対象</span>：博士号取得者（学位取得後7年以内）</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">給与</span>：時給2200円、2500円、2700円（産総研規定により決定）</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">場所</span>：産総研つくばセンター（茨城県つくば市）</li>
@@ -127,14 +127,14 @@
           <li class="text-justify mt-2"><span class="font-weight-bold">メンバーはどのくらいいるの？</span>：2020年2月現在、サーベイメンバー360名超、研究メンバーが約50名います。研究グループは合計で8グループあります。</li>
           <!-- <li class="text-justify mt-2"><span class="font-weight-bold">サーベイについてノルマはある？</span>：サーベイ用Slackのチャンネルを閲覧するだけでしたら個人としてのノルマは発生しません。ですが、せっかくでしたら有志メンバーとしてご参加頂き、論文サマリを作成して議論するのが論文調査の効果が大きいです。</li> -->
           <li class="text-justify mt-2"><span class="font-weight-bold">研究はどうやって進める？</span>：多数の論文をインプットとして、ブレストによるアイディア考案とディスカッションを繰り返し研究テーマを設定しています。大枠の研究テーマ毎に研究グループとして複数人で研究を効率的に進めていきます。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">どうやってまとめればよい？</span>：各リーダーが運営する勉強会により異なりますが、Google DriveやGitHub、手元のPPTファイルにより共有することが多いです。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">どうやってまとめればよい？</span>：各リーダーが運営する勉強会により異なりますが、Google Drive や GitHub、手元のPPTファイルにより共有することが多いです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">ツライんじゃない？</span>：サーベイや研究はツラいですが、それ以上に研究コミュニティへの参加を通してその面白さを知って欲しいと思ってます。コミュニティではモチベーションの高いメンバー同士がディスカッションしているため、メンバーの声を聞いてみると驚くほどモチベーションが高いです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">みんなどのくらい読んでいる？</span>：人により異なります。年間数本から、一番多く読んでいる学生さんで年間数百本以上読んでいます。学部生で月80本読んだ、という学生さんもいますがご自身のペースで進めるのが良いです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">求める人材像は？</span>：モチベーションが高い人を求めていますが、さらにこれまでの取り組みの中で「返信が早い」「自ら提案できる」人はサーベイや研究の進度が速い傾向にあります。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーは選抜あるの？</span>：能力による選抜はありません。しかし、特に学生さんで研究室の指導教員がいらっしゃる場合には研究室との関係性が良好であるかどうかが重要です。例えば、多くの研究メンバーは卒・修・博論になるようなメイン研究が問題なく進んでいるという前提で、その上でcvpaper.challengeの研究メンバーとしてグループ研究を実施しています。さらに、研究室以外に研究コミュニティに参加するということに対してご理解があることが望ましいです。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーは選抜あるの？</span>：能力による選抜はありません。しかし、特に学生さんで研究室の指導教員がいらっしゃる場合には研究室との関係性が良好であるかどうかが重要です。例えば、多くの研究メンバーは卒・修・博論になるようなメイン研究が問題なく進んでいるという前提で、その上で cvpaper.challenge の研究メンバーとしてグループ研究を実施しています。さらに、研究室以外に研究コミュニティに参加するということに対してご理解があることが望ましいです。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">プログラミングできなくても研究メンバーになれる？</span>：なれます。ご自身で実装ができるに越したことはありませんが、研究室配属後ゼロから勉強して約半年で国際会議の論文に採択されたという例もございます。研究プロジェクト内でゼロから勉強することも可能です。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">今までの実績について教えて！</span>：現在までにGoogle Scholar TOP20にリストアップされている論文に20本以上採択されています（TOP-1のCVPRやICRAにも複数本の論文が採択）。また、論文サマリは4,000本以上ございます。詳細は<nuxt-link to="/resources">リソースページ</nuxt-link>をご確認ください。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーとしての目標は？</span>：2020年は「Google Scholar TOP20 にリストアップされている国際会議/ジャーナルに30本以上投稿。そのうち Top-tier 国際会議には15本以上投稿し5本以上を採択されること。」を目標として掲げています。「30本以上投稿」という目標は論文を執筆して投稿するまでの経験を重ねるために設けましたが、もちろん全て査読突破できるレベルまで持っていけるよう内部査読などの完成度を高める工夫を行っています。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">今までの実績について教えて！</span>：現在までに Google Scholar TOP20にリストアップされている論文に20本以上採択されています（TOP-1の CVPR や ICRA にも複数本の論文が採択）。また、論文サマリは4,000本以上ございます。詳細は<nuxt-link to="/resources">リソースページ</nuxt-link>をご確認ください。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーとしての目標は？</span>：2020年は「Google Scholar TOP20 にリストアップされている国際会議 / ジャーナルに30本以上投稿すること」を目標として掲げています。「30本以上投稿」という目標は論文を執筆して投稿するまでの経験を重ねるために設けましたが、もちろん全て査読突破できるレベルまで持っていけるよう内部査読などの完成度を高める工夫を行っています。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">コンピュータビジョンが専門ではないんだけど大丈夫？</span>：コンピュータビジョンや他分野の融合により大きなインパクトを生み出した、という例は少なくないです。他分野の方も大歓迎です！</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">大学や企業、研究機関をまたいだ横のつながりはないの？</span>：サーベイメンバーに関しては、所属機関の制約は設けておりません。勉強会や情報共有チャンネルを立ち上げてディスカッションを行なっています。新しい勉強会やサーベイプロジェクト、懇親会やイベント等、積極的に企画してください。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold"><a href="http://xpaperchallenge.org/nlp/">nlpaper.challenge</a>や<a href="https://sites.google.com/view/robotpaperchallenge/home">robotpaper.challenge</a>との関係性は？</span>：研究コミュニティ名は異なりますが、基本的には連携して活動しています。これらの研究コミュニティと連携して網羅的サーベイや研究プロジェクトを加速させていきたいです。</li>
