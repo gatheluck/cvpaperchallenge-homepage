@@ -1,5 +1,5 @@
 <template>
-	<div>
+<div>
     <b-jumbotron header-level="4">
       <template slot="header">
         <b-container>
@@ -19,20 +19,27 @@
         <hr class="my-4">
 
         <div class="text-center">
-          <b-button class="main-button" to="/members" size="lg" variant="info">
+          <b-button class="main-button" to="/recruit" size="lg" variant="dark">
             <span>メンバー募集ページ</span>
             <font-awesome-icon icon="angle-right"/>
           </b-button>
         </div>
 
-		    <b-row class="mt-5">
+		<b-row class="mt-5">
           <b-col cols="12">
             <news-feed :news="news" :isLoading="isLoading"/>
           </b-col>
         </b-row>
       </b-container>
     </b-jumbotron>
+
+	<!-- contact -->
+	<!-- <b-cotainer>
+	<div class="mt-4">
+		<h2>Contact</h2>
 	</div>
+	</b-cotainer> -->
+</div>
 </template>
 
 <script>
