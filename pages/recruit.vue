@@ -42,13 +42,14 @@
             <li class="text-justify mt-1">大学や研究所のご所属がある方が研究メンバーとして参加しやすいです。指導教員がいらっしゃる場合には予めご相談の上で許可を頂いてからcvpaper.challengeの研究メンバーとしてご参加ください。</li>
             <li class="text-justify mt-1">企業の方の場合には共同研究やその他の連携方法を探る傾向にあります。やはり主宰の片岡までご相談ください。</li>
             <li class="text-justify mt-1">研究メンバーは基本的に2〜5人単位の研究グループで活動しており、実働メンバーのみでなく研究アドバイザとしてもご参加可能です。</li>
-            <li class="text-justify mt-1">研究メンバーになることの利点や活動の具体例は</li>
+            <li class="text-justify mt-1">研究メンバーになることの利点や活動の具体例は下のスライド資料を参照してください。</li>
             <li class="text-justify mt-1">産総研所属となり、より積極的に研究グループの活動を行いたいという場合には産総研インターン/リサーチアシスタント（RA）/ポスドクとしての募集もございます。下記の<a href="#aist_recruitment">産総研の公募</a>をご確認ください。（もちろん一般公募としての応募となるため、審査の上で決定します。優先的に/無条件で採用できるわけではございません。）</li>
           </ul>
 
-          <!-- <div class="">
-            <iframe src="//www.slideshare.net/slideshow/embed_code/key/gHfXCXwOsl2yxZ" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cvpaperchallenge/adversarial-examples-229232499" title="Adversarial Examples 分野の動向（メタサーベイ追加版）" target="_blank">Adversarial Examples 分野の動向（メタサーベイ追加版）</a> </strong> from <strong><a href="//www.slideshare.net/cvpaperchallenge" target="_blank">cvpaper. challenge</a></strong> </div>
-          <div> -->
+        <div class="mt-4 text-center">
+          <iframe src="//www.slideshare.net/slideshow/embed_code/key/MvAYHifY7890e" width="429" height="357" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cvpaperchallenge/cvpaperchallenge-cv-229354908" title="cvpaper.challenge 研究メンバー募集 〜CV分野の今を映し，トレンドを創る挑戦〜" target="_blank">cvpaper.challenge 研究メンバー募集</a> </strong></div>
+        </div>  
+
         <hr class="my-4">
       </div>
 
