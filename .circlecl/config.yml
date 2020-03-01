@@ -1,0 +1,71 @@
+version: 2
+jobs:
+  build:
+    docker: 
+      - image: circleci/node:8 
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-npm-wee
+          command: npm install
+      - save_cache: 
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: generate-app
+          command: npm run generate
+      - persist_to_workspace:
+          root: ./dist
+          paths:
+            - ./*
+  deploy:
+    machine:
+      enabled: true
+    working_dirctory: ~/project
+    steps:
+      - add_ssh_keys:
+          fingerprints: ''
+      - run:
+          name: install-sshpass
+          command: 'sudo apt-get update && sudo apt-get install sshpass'
+      - attach_workspace:
+          at: ./dist
+      - run:
+          name: remove-previous-deployed
+          command: ssh ${SSH_USER}@${SSH_HOST} rm -rf /home/xpaperchallenge/www/cv/*
+      - run:
+          name: copy-app-to-remote
+          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
+
+workflows:
+  version: 2
+  build-and-deploy: 
+    jobs:
+      - build
+      - deploy: # deploy only from master branch
+          filters:
+            branches:
+              only:
+                - master
+          requires:
+            - build
+  nightly: # build and deploy at 12:00 am
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+    triggers:
+      - schedule:
+          cron: "0 15 * * *"
+          filters:
+            branches:
+              only:
+                - master
