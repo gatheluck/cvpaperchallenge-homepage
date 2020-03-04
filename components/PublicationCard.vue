@@ -21,7 +21,7 @@
     </a>
 
     <!-- urls of pdf / github --> 
-    <a v-if="publication.paper_url!=''" v-bind:href="publication.paper_url" :class="card-link">[PDF]</a>
+    <a v-if="publication.paper_url!=''" v-bind:href="publication.paper_url" :class="card-link">[Paper]</a>
     <a v-if="publication.github_url!=''" v-bind:href="publication.github_url" :class="card-link">[GitHub]</a>
   </b-card>
 </template>
