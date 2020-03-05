@@ -80,27 +80,6 @@ import TalkCard from "~/components/TalkCard.vue";
 import SlideCard from "~/components/SlideCard.vue";
 import axios from "axios";
 
-// used for sort by date 
-function compareByDate(a, b) { 
-  return new Date(b.date) - new Date(a.date);
-};
-
-// used for create pair
-function makePair(prev, curr) {
-  if (prev.length == 0) {
-    return [[curr]];
-  } else {
-    if (prev.slice(-1)[0].length == 1) {
-      return [
-        ...prev.slice(0, prev.length - 1),
-        [...prev.slice(-1)[0], curr]
-      ];
-    } else {
-      return [...prev, [curr]];
-    }
-  }
-} 
-
 export default {
   components: {
     SlideCard,
@@ -128,16 +107,16 @@ export default {
   computed: {
     slidePairs() {
       if (this.slidesCurrentPage < this.slidesNumPage){
-        return this.slides.sort(compareByDate).reduce(makePair, []).slice((this.slidesCurrentPage-1)*this.slidesPerPage, this.slidesCurrentPage*this.slidesPerPage)
+        return this.slides.sort(this.$compareByDate).reduce(this.$makePair, []).slice((this.slidesCurrentPage-1)*this.slidesPerPage, this.slidesCurrentPage*this.slidesPerPage)
       } else {
-        return this.slides.sort(compareByDate).reduce(makePair, []).slice((this.slidesCurrentPage-1)*this.slidesPerPage)
+        return this.slides.sort(this.$compareByDate).reduce(this.$makePair, []).slice((this.slidesCurrentPage-1)*this.slidesPerPage)
       }
     },
     talkPairs() {
       if (this.talksCurrentPage < this.talksNumPage){
-        return this.talks.sort(compareByDate).reduce(makePair, []).slice((this.talksCurrentPage-1)*this.talksPerPage, this.talksCurrentPage*this.talksPerPage)
+        return this.talks.sort(this.$compareByDate).reduce(this.$makePair, []).slice((this.talksCurrentPage-1)*this.talksPerPage, this.talksCurrentPage*this.talksPerPage)
       } else {
-        return this.talks.sort(compareByDate).reduce(makePair, []).slice((this.talksCurrentPage-1)*this.talksPerPage)
+        return this.talks.sort(this.$compareByDate).reduce(this.$makePair, []).slice((this.talksCurrentPage-1)*this.talksPerPage)
       }
     },
   },
