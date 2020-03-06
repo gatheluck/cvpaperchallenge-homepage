@@ -26,11 +26,11 @@
 
       <div class="mt-4">
         <h2>参加形式</h2>
-        <p class="text-justify">cvpaper.challenge の参加形式は大きく分けて２種類、<a href="#survey_member">(1)サーベイメンバー</a>、<a href="#research_member">(2)研究メンバー</a>としてのご参加が可能です。下記にその2種類の参加形式を記載します。</p>
+        <p class="text-justify">cvpaper.challenge の参加形式は大きく分けて２種類、<nuxt-link to="#survey_member">(1)サーベイメンバー</nuxt-link>、<nuxt-link to="#research_member">(2)研究メンバー</nuxt-link>としてのご参加が可能です。下記にその2種類の参加形式を記載します。</p>
         <h5 class="mt-4" id="survey_member">(1) サーベイメンバー</h5>
           <ul>
             <li class="text-justify mt-1"><span class="font-weight-bold">どなたでも</span>ご参加頂けます。</li>
-            <li class="text-justify mt-1">サーベイ用のSlackにご招待しますので、本ページ下の<a href="#contact">コンタクト</a>に記載のメールアドレスまでご連絡ください。</li>
+            <li class="text-justify mt-1">サーベイ用のSlackにご招待しますので、本ページ下の<nuxt-link to="#contact">コンタクト</nuxt-link>に記載のメールアドレスまでご連絡ください。</li>
             <li class="text-justify mt-1">サーベイ用のSlackでは各種勉強会や論文共有チャンネル、網羅的サーベイのプロジェクトなどが動いています。</li>
             <li class="text-justify mt-1">自ら勉強会を企画してリードしてくれる、情報を積極的に共有してくれるメンバー大歓迎です。</li>
             <li class="text-justify mt-1">もちろん、勉強会等に参加するだけ、情報を確認したいというメンバーも歓迎します。</li>
@@ -38,12 +38,12 @@
 
         <h5 class="mt-4" id="research_member">(2) 研究メンバー</h5>
           <ul>
-            <li class="text-justify mt-1">まずは<span class="font-weight-bold">上記の<a href="#survey_member">サーベイメンバー</a>になった上で</span>主宰の片岡までご相談ください。</li>
+            <li class="text-justify mt-1">まずは<span class="font-weight-bold">上記の<nuxt-link to="#survey_member">サーベイメンバー</nuxt-link>になった上で</span>主宰の片岡までご相談ください。</li>
             <li class="text-justify mt-1">大学や研究所のご所属がある方が研究メンバーとして参加しやすいです。指導教員がいらっしゃる場合には予めご相談の上で許可を頂いてからcvpaper.challengeの研究メンバーとしてご参加ください。</li>
             <li class="text-justify mt-1">企業の方の場合には共同研究やその他の連携方法を探る傾向にあります。やはり主宰の片岡までご相談ください。</li>
             <li class="text-justify mt-1">研究メンバーは基本的に2〜5人単位の研究グループで活動しており、実働メンバーのみでなく研究アドバイザとしてもご参加可能です。</li>
             <li class="text-justify mt-1">研究メンバーになることの利点や活動の具体例は下のスライド資料を参照してください。</li>
-            <li class="text-justify mt-1">産総研所属となり、より積極的に研究グループの活動を行いたいという場合には産総研インターン/リサーチアシスタント（RA）/ポスドクとしての募集もございます。下記の<a href="#aist_recruitment">産総研の公募</a>をご確認ください。（もちろん一般公募としての応募となるため、審査の上で決定します。優先的に/無条件で採用できるわけではございません。）</li>
+            <li class="text-justify mt-1">産総研所属となり、より積極的に研究グループの活動を行いたいという場合には産総研インターン/リサーチアシスタント（RA）/ポスドクとしての募集もございます。下記の<nuxt-link to="#aist_recruitment">産総研の公募</nuxt-link>をご確認ください。（もちろん一般公募としての応募となるため、審査の上で決定します。優先的に/無条件で採用できるわけではございません。）</li>
           </ul>
 
         <div class="mt-4 text-center">
