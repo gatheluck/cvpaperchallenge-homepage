@@ -44,7 +44,7 @@ jobs:
           command: | 
             ssh ${SSH_USER}@${SSH_HOST} cd /home/xpaperchallenge/www/cv/
             ls .  | grep -v survey | xargs rm -r
-      -run: 
+      - run: 
           name: show dir for debug
           command: ls .
       - run:
