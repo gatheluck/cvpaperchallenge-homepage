@@ -44,11 +44,12 @@ jobs:
           command: | 
             ssh ${SSH_USER}@${SSH_HOST} cd /home/xpaperchallenge/www/cv/
             ls .  | grep -v survey | xargs rm -r
+      -run: 
+          name: show dir for debug
+          command: ls .
       - run:
           name: copy-app-to-remote
-          command: |
-            ls .
-            scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
+          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
 
 workflows:
   version: 2
