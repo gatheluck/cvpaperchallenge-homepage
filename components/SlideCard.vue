@@ -4,7 +4,7 @@
   v-bind:sub-title="slide.authors"
   class="mt-2 with-shadow">
     <!-- urls of slide / event --> 
-    <a v-if="slide.url!=''" v-bind:href="slide.url" :class="card-link">[Slide]</a>
+    <a v-if="slide.url!=''" v-bind:href="slide.url" :class="card-link" target="_blank">[Slide]</a>
   </b-card>
 </template>
 
