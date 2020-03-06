@@ -46,15 +46,15 @@ jobs:
       - run:
           name: remove-previous-deployed-1
           command: | 
-            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test"
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "/home/xpaperchallenge/www/cv/test"
       - run:
           name: remove-previous-deployed-2
           command: | 
-            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test" | grep -v "survey"
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "/home/xpaperchallenge/www/cv/test" | grep -v "survey"
       - run:
           name: remove-previous-deployed
           command: | 
-            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test" | grep -v "survey" | rm -rf
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "/home/xpaperchallenge/www/cv/test" | grep -v "survey" | rm -rf 
       - run:
           name: copy-app-to-remote
           command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv/test
