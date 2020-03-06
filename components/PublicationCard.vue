@@ -4,21 +4,11 @@
   v-bind:sub-title="publication.authors"
   class="mt-2 with-shadow">
 
-    <!-- infomation of conference / journal / workshop -->  
-    <a v-bind:href="publication.conference_url">
-      <!-- conference / journal with abbreviation --> 
-      <b-card-text v-if="publication.conference_workshop=='' && publication.conference_abbreviation!=''">
-        {{ publication.conference_name }} ({{ publication.conference_abbreviation }}), {{publication.conference_year}}
-      </b-card-text>
-      <!-- conference / journal without abbreviation --> 
-      <b-card-text v-else-if="publication.conference_workshop=='' && publication.conference_abbreviation==''">
-        {{ publication.conference_name }}, {{publication.conference_year}}
-      </b-card-text>
-      <!-- workshop --> 
-      <b-card-text v-else v-bind:href="publication.conference_url">
-        {{ publication.conference_abbreviation }} Workshop on {{ publication.conference_workshop }}, {{publication.conference_year}}
-      </b-card-text>
-    </a>
+    <!-- name of the conference / journal / arXiv Preprint --> 
+    <b-card-text class="mb-2">
+      <a v-if="publication.preprint=='No'" v-bind:href="publication.conference_url"> {{ publication.confname_for_display }} </a>
+      <a v-else> {{ publication.confname_for_display }} </a>
+    </b-card-text>
 
     <!-- urls of pdf / github --> 
     <a v-if="publication.paper_url!=''" v-bind:href="publication.paper_url" :class="card-link">[Paper]</a>
