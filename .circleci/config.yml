@@ -42,7 +42,7 @@ jobs:
       - run:
           name: remove-previous-deployed
           command: | 
-            ls .
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test" | grep -v "survey" | rm -rf
       - run: 
           name: show dir for debug
           command: ls .
