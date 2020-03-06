@@ -46,7 +46,9 @@ jobs:
             ls .  | grep -v survey | xargs rm -r
       - run:
           name: copy-app-to-remote
-          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
+          command: |
+            ls .
+            scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
 
 workflows:
   version: 2
