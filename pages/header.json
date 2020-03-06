@@ -48,19 +48,19 @@
 	  {
 		"hid": "og:image",
 		"property": "og:image",
-		"content": "http://xpaperchallenge.org/cv/image/logo/title.png"
+		"content": "http://xpaperchallenge.org/cv/test/image/logo/title.png"
 	  },
 	  {
 		"hid": "og:url",
 		"property": "og:url",
-		"content": "http://xpaperchallenge.org/cv/summaries"
+		"content": "http://xpaperchallenge.org/cv/test/summaries"
 	  }
 	],
 	"link": [
 	  {
 		"rel": "icon",
 		"type": "image/x-icon",
-		"href": "/cv/favicon.ico"
+		"href": "/cv/test/favicon.ico"
 	  }
 	]
   }
