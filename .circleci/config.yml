@@ -42,14 +42,13 @@ jobs:
       - run:
           name: remove-previous-deployed
           command: | 
-            ssh ${SSH_USER}@${SSH_HOST} rm -rf /home/xpaperchallenge/www/cv/*
             ls .
       - run: 
           name: show dir for debug
           command: ls .
       - run:
           name: copy-app-to-remote
-          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
+          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv/test
 
 workflows:
   version: 2
