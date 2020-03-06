@@ -47,7 +47,7 @@
           </ul>
 
         <div class="mt-4 text-center">
-          <iframe src="//www.slideshare.net/slideshow/embed_code/key/MvAYHifY7890e" width="429" height="357" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cvpaperchallenge/cvpaperchallenge-cv-229354908" title="cvpaper.challenge 研究メンバー募集 〜CV分野の今を映し，トレンドを創る挑戦〜" target="_blank">cvpaper.challenge 研究メンバー募集</a> </strong></div>
+          <iframe src="//www.slideshare.net/slideshow/embed_code/key/MvAYHifY7890e" width="514" height="422" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cvpaperchallenge/cvpaperchallenge-cv-229354908" title="cvpaper.challenge 研究メンバー募集 〜CV分野の今を映し，トレンドを創る挑戦〜" target="_blank">cvpaper.challenge 研究メンバー募集</a> </strong></div>
         </div>  
 
         <hr class="my-4">
