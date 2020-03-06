@@ -43,7 +43,7 @@ jobs:
           name: remove-previous-deployed
           command: | 
             ssh ${SSH_USER}@${SSH_HOST} cd /home/xpaperchallenge/www/cv/
-            ls .  | grep -v survey | xargs rm -r
+            ls .
       - run: 
           name: show dir for debug
           command: ls .
