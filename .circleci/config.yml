@@ -31,7 +31,7 @@ jobs:
     working_dirctory: ~/project
     steps:
       - add_ssh_keys:
-          fingerprints: ''
+          fingerprints: "eb:df:4f:86:9b:ce:e3:77:71:38:56:3c:61:54:77:bc"
       - run:
           name: install-sshpass
           command: 'sudo apt-get update && sudo apt-get install sshpass'
@@ -39,7 +39,7 @@ jobs:
           at: ./dist
       - run:
           name: remove-previous-deployed
-          command: ssh ${SSH_USER}@${SSH_HOST} rm -rf /home/xpaperchallenge/www/cv/*
+          command: 'ssh ${SSH_USER}@${SSH_HOST} cd /home/xpaperchallenge/www/cv/ && ls .  | grep -v survey | xargs rm -r'
       - run:
           name: copy-app-to-remote
           command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
