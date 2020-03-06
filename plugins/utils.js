@@ -1,7 +1,11 @@
 
 
 function compareByDate(a, b) { 
-  return new Date(b.date) - new Date(a.date);
+  if (a.hasOwnProperty('date')) {
+    return new Date(b.date) - new Date(a.date);
+  } else {
+    return new Date(b.Timestamp) - new Date(a.Timestamp);
+  }
 };
 
 function makePair(prev, curr) {
