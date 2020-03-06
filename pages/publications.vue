@@ -37,6 +37,36 @@
 import PublicationCard from "~/components/PublicationCard.vue";
 import axios from "axios";
 
+// 
+function parseConferenceName(publication) {
+  // arxiv preprint
+  if (publication.preprint=='Yes') 
+    return publication.conference_name;
+  
+  var confname_for_display = '';
+
+  // workshop
+  if (publication.conference_workshop) {
+    if (publication.conference_abbreviation){
+      confname_for_display += publication.conference_abbreviation;
+    } else {
+      confname_for_display += publication.conference_name;
+    }
+    confname_for_display += '  Workshop on  ' + publication.conference_workshop;
+  // conference procceding or journal
+  } else {
+    confname_for_display += publication.conference_name;
+    if (publication.conference_abbreviation)
+      confname_for_display += ' ('+ publication.conference_abbreviation +')';
+  }
+
+	if (publication.conference_year) {
+		confname_for_display += ', ' + publication.conference_year;
+  }
+  
+	return confname_for_display;
+}
+
 export default {
   components: {
     PublicationCard
@@ -49,10 +79,15 @@ export default {
     }
   },
   computed: {
-    latestPublications() {
-      return [...this.publications].sort(
-        (a, b) => new Date(b.Timestamp) - new Date(a.Timestamp)
-      );
+	  latestPublications() {
+      let sorted_publications = this.publications.sort(this.$compareByDate);
+	  
+	    sorted_publications.forEach(
+        function(value, index) {
+          sorted_publications[index]['confname_for_display'] = parseConferenceName(value);
+        });
+      
+      return sorted_publications
     }
   }
 };
