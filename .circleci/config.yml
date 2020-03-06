@@ -40,12 +40,21 @@ jobs:
       - attach_workspace:
           at: ./dist
       - run:
+          name: remove-previous-deployed-0
+          command: | 
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test
+      - run:
+          name: remove-previous-deployed-1
+          command: | 
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test"
+      - run:
+          name: remove-previous-deployed-2
+          command: | 
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test" | grep -v "survey"
+      - run:
           name: remove-previous-deployed
           command: | 
             ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "test" | grep -v "survey" | rm -rf
-      - run: 
-          name: show dir for debug
-          command: ls .
       - run:
           name: copy-app-to-remote
           command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv/test
