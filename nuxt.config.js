@@ -49,7 +49,7 @@ module.exports = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'http://xpaperchallenge.org/cv/test/image/logo/title.png'
+        content: 'http://xpaperchallenge.org/cv/image/logo/title.png'
       },
       {
         hid: 'og:url',
@@ -58,7 +58,7 @@ module.exports = {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/cv/test/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/cv/favicon.ico' }
     ]
   },
   /*
@@ -111,7 +111,7 @@ module.exports = {
   },
 
   router: {
-    base: '/cv/test'
+    base: '/cv'
   },
 
   fontawesome: {

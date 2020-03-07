@@ -42,10 +42,10 @@ jobs:
       - run:
           name: remove-previous-deployed
           command: | 
-            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv/test | grep -x -v "/home/xpaperchallenge/www/cv/test" | grep -v "survey" | xargs rm -rf 
+            ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv | grep -x -v "/home/xpaperchallenge/www/cv" | grep -v "survey" | xargs rm -rf 
       - run:
           name: copy-app-to-remote
-          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv/test
+          command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
 
 workflows:
   version: 2
