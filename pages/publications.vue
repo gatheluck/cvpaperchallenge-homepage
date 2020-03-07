@@ -10,6 +10,7 @@
       <template slot="lead">
         <b-container>
           <div class="text-center">
+            For an idea that does not first seem insane, there is no hope - Alboert Ainstain
           </div>
         </b-container>
       </template>
