@@ -40,13 +40,17 @@ jobs:
       - attach_workspace:
           at: ./dist
       - run:
-          name: show-dirs-for-debugging
+          name: show-dirs-for-debug
           command: |
             ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv | grep -x -v "/home/xpaperchallenge/www/cv" | grep -v "survey"
       - run:
           name: remove-previous-deployed
           command: | 
             ssh ${SSH_USER}@${SSH_HOST} find /home/xpaperchallenge/www/cv | grep -x -v "/home/xpaperchallenge/www/cv" | grep -v "survey" | xargs rm -rf 
+      - run:
+          name: show-remove-result-for-debug
+          command: |
+            ssh ${SSH_USER}@${SSH_HOST} ls /home/xpaperchallenge/www/cv
       - run:
           name: copy-app-to-remote
           command: scp -r ./dist/* ${SSH_USER}@${SSH_HOST}:/home/xpaperchallenge/www/cv
