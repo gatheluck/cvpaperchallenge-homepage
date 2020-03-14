@@ -95,28 +95,28 @@
 
         <h5 class="mt-4">動画像認識</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1711.09577">3次元畳み込みの解析（CVPR 2018）</a></li>
-          <li class="text-justify mt-1"><a href="https://ieeexplore.ieee.org/document/8793709">教師無し文脈外行動理解（ICRA 2019）</a></li>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1608.07876">人を見ない人物行動認識（ECCV 2016 Workshop; Brave New Idea）</a></li>
-          <li class="text-justify mt-1"><a href="http://www.bmva.org/bmvc/2016/papers/paper012/index.html">遷移行動認識による短期行動予測（BMVC 2016）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1711.09577" target="_blank">3次元畳み込みの解析（CVPR 2018）</a></li>
+          <li class="text-justify mt-1"><a href="https://ieeexplore.ieee.org/document/8793709" target="_blank">教師無し文脈外行動理解（ICRA 2019）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1608.07876" target="_blank">人を見ない人物行動認識（ECCV 2016 Workshop; Brave New Idea）</a></li>
+          <li class="text-justify mt-1"><a href="http://www.bmva.org/bmvc/2016/papers/paper012/index.html" target="_blank">遷移行動認識による短期行動予測（BMVC 2016）</a></li>
         </ul>
 
         <h5 class="mt-4">自動運転/予防安全</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02555">交通ニアミスDBと動画解析（ICRA 2018）</a></li>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02675">適応的誤差関数による交通事故解析（CVPR 2018）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02555" target="_blank">交通ニアミスDBと動画解析（ICRA 2018）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02675" target="_blank">適応的誤差関数による交通事故解析（CVPR 2018）</a></li>
         </ul>
 
         <h5 class="mt-4">大規模DB構築</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1703.07920">超大規模ファッションDB解析（CVPR 2019 Workshop, MIRU 2017 Best Student Paper)</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1703.07920" target="_blank">超大規模ファッションDB解析（CVPR 2019 Workshop, MIRU 2017 Best Student Paper)</a></li>
           <li class="text-justify mt-1">自然の形成原理に即した深層学習の真相究明（科研費基盤研究(A)採択）</li>
         </ul>
 
         <h5 class="mt-4">その他</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1805.11850">ボケをかますAI -Neural Joking Machine-（CVPRW 2018）</a></li>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1811.06943">論文の自動要約 (ICMV 2018)</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1805.11850" target="_blank">ボケをかますAI -Neural Joking Machine-（CVPRW 2018）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1811.06943" target="_blank">論文の自動要約 (ICMV 2018)</a></li>
         </ul>
 
         <hr class="my-4">
