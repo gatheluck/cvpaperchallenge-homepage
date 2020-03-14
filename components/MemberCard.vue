@@ -19,7 +19,7 @@
       />
       <h5 class="mt-0">{{ member.name }}</h5>
       <p>{{ member.affiliation }}</p>
-      <a :href="member.url" target="_blank" class="btn stretched-link"></a>
+      <a v-if="member.url" :href="member.url" target="_blank" class="btn stretched-link"></a>
     </b-media>
   </b-card>
 </template>
