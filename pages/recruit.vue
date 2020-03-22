@@ -113,6 +113,13 @@
           <li class="text-justify mt-1">自然の形成原理に即した深層学習の真相究明（科研費基盤研究(A)採択）</li>
         </ul>
 
+		<h5 class="mt-4">生成モデル</h5>
+		<ul>
+			<li class="text-justify mt-1">GAN の Generatorの圧縮（<a href="https://db-event.jpn.org/webdbf2019/award.html" target="_blank">WebDB 2019 最優秀学生ポスター発表賞</a>, <a href="https://www.kogakuin.ac.jp/news/2019/2020021401.html" target="_blank">ISAT-18 Excellent Oral Paper Presentation Award</a>）</li>
+			<li class="text-justify mt-1">GAN による Novel View Synthesis（<a href="http://ssii.jp/ssii/ssii_history.html?eventCode=ssii2020&strLocale=ja" target="_blank">SSII2019 優秀学術賞</a>）</li>
+
+		</ul>
+
         <h5 class="mt-4">その他</h5>
         <ul>
           <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1805.11850" target="_blank">ボケをかますAI -Neural Joking Machine-（CVPRW 2018）</a></li>
