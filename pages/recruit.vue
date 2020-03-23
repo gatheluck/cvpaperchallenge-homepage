@@ -110,7 +110,7 @@
         <h5 class="mt-4">大規模DB構築</h5>
         <ul>
           <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1703.07920" target="_blank">超大規模ファッションDB解析（CVPR 2019 Workshop, MIRU 2017 Best Student Paper)</a></li>
-          <li class="text-justify mt-1"><a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19H01134/" target="_blank">自然の形成原理に即した深層学習の真相究明（科研費基盤研究(A)採択）</a></li>
+          <li class="text-justify mt-1">自然の形成原理に即した深層学習の真相究明（<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19H01134/" target="_blank">科研費基盤研究(A)採択</a>）</li>
         </ul>
 
 		<h5 class="mt-4">生成モデル</h5>
