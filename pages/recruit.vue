@@ -117,7 +117,12 @@
 		<ul>
 			<li class="text-justify mt-1">GAN の Generatorの圧縮（<a href="https://db-event.jpn.org/webdbf2019/award.html" target="_blank">WebDB 2019 最優秀学生ポスター発表賞</a>, <a href="https://www.kogakuin.ac.jp/news/2019/2020021401.html" target="_blank">ISAT-18 Excellent Oral Paper Presentation Award</a>）</li>
 			<li class="text-justify mt-1">GAN による Novel View Synthesis（<a href="http://ssii.jp/ssii/ssii_history.html?eventCode=ssii2020&strLocale=ja" target="_blank">SSII2019 優秀学術賞</a>）</li>
+		</ul>
 
+		<h5 class="mt-4">Vision and Language</h5>
+		<ul>
+			<li class="text-justify mt-1">3次元 VQA（<a href="https://ieeexplore.ieee.org/document/8885753" target="_blank">3DV 2019</a>）</li>
+			<li class="text-justify mt-1">Neural Joking Machine（HCI 2020）</li>
 		</ul>
 
         <h5 class="mt-4">その他</h5>
