@@ -95,40 +95,56 @@
 
         <h5 class="mt-4">動画像認識</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1711.09577" target="_blank">3次元畳み込みの解析（CVPR 2018）</a></li>
-          <li class="text-justify mt-1"><a href="https://ieeexplore.ieee.org/document/8793709" target="_blank">教師無し文脈外行動理解（ICRA 2019）</a></li>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1608.07876" target="_blank">人を見ない人物行動認識（ECCV 2016 Workshop; Brave New Idea）</a></li>
-          <li class="text-justify mt-1"><a href="http://www.bmva.org/bmvc/2016/papers/paper012/index.html" target="_blank">遷移行動認識による短期行動予測（BMVC 2016）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1711.09577" target="_blank">3次元畳み込みの解析</a>
+			  （<a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Hara_Can_Spatiotemporal_3D_CVPR_2018_paper.html" target="_blank">CVPR 2018</a>）</li>
+		  <li class="text-justify mt-1">教師なし文脈行動理解
+			  （<a href="https://ieeexplore.ieee.org/document/8793709" target="_blank">ICRA 2019</a>）</li>
+          <li class="text-justify mt-1">大規模 動画データセットの結合による事前学習モデルの構築 
+			  （MIRU 2019）</li>
         </ul>
+
+		<h5 class="mt-4">動画キャプション生成</h5>
+		<ul>
+          <li class="text-justify mt-1">動画キャプション生成に最適なモデルの検討（MIRU2019）</li>
+		</ul>
 
         <h5 class="mt-4">自動運転/予防安全</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02555" target="_blank">交通ニアミスDBと動画解析（ICRA 2018）</a></li>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02675" target="_blank">適応的誤差関数による交通事故解析（CVPR 2018）</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02555" target="_blank">交通ニアミスDBと動画解析</a>
+			  （ICRA 2018）</li>
+          
+		  <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1804.02675" target="_blank">適応的誤差関数による交通事故解析</a>
+			  （<a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Suzuki_Anticipating_Traffic_Accidents_CVPR_2018_paper.html" target="_blank">CVPR 2018</a>）</li>
         </ul>
 
         <h5 class="mt-4">大規模DB構築</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1703.07920" target="_blank">超大規模ファッションDB解析（CVPR 2019 Workshop, MIRU 2017 Best Student Paper)</a></li>
-          <li class="text-justify mt-1">自然の形成原理に即した深層学習の真相究明（<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19H01134/" target="_blank">科研費基盤研究(A)採択</a>）</li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1703.07920" target="_blank">超大規模ファッションDB解析</a>
+		  	  （CVPR 2019 Workshop, MIRU 2017 Best Student Paper)</li>
+          <li class="text-justify mt-1">自然の形成原理に即した深層学習の真相究明
+			  （<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19H01134/" target="_blank">科研費基盤研究(A)採択</a>）</li>
         </ul>
 
 		<h5 class="mt-4">生成モデル</h5>
 		<ul>
-			<li class="text-justify mt-1">GAN の Generatorの圧縮（<a href="https://db-event.jpn.org/webdbf2019/award.html" target="_blank">WebDB 2019 最優秀学生ポスター発表賞</a>, <a href="https://www.kogakuin.ac.jp/news/2019/2020021401.html" target="_blank">ISAT-18 Excellent Oral Paper Presentation Award</a>）</li>
-			<li class="text-justify mt-1">GAN による Novel View Synthesis（<a href="http://ssii.jp/ssii/ssii_history.html?eventCode=ssii2020&strLocale=ja" target="_blank">SSII2019 優秀学術賞</a>）</li>
+			<li class="text-justify mt-1">GAN の Generatorの圧縮
+				（<a href="https://db-event.jpn.org/webdbf2019/award.html" target="_blank">WebDB 2019 最優秀学生ポスター発表賞</a>, <a href="https://www.kogakuin.ac.jp/news/2019/2020021401.html" target="_blank">ISAT-18 Excellent Oral Paper Presentation Award</a>）</li>
+			<li class="text-justify mt-1">GAN による Novel View Synthesis
+				（<a href="http://ssii.jp/ssii/ssii_history.html?eventCode=ssii2020&strLocale=ja" target="_blank">SSII2019 優秀学術賞</a>）</li>
 		</ul>
 
 		<h5 class="mt-4">Vision and Language</h5>
 		<ul>
-			<li class="text-justify mt-1">3次元 VQA（<a href="https://ieeexplore.ieee.org/document/8885753" target="_blank">3DV 2019</a>）</li>
-			<li class="text-justify mt-1">Neural Joking Machine（HCI 2020）</li>
+			<li class="text-justify mt-1">3次元 VQA
+				（<a href="https://ieeexplore.ieee.org/document/8885753" target="_blank">3DV 2019</a>）</li>
+			<li class="text-justify mt-1">Neural Joking Machine
+				（HCI 2020）</li>
 		</ul>
 
         <h5 class="mt-4">その他</h5>
         <ul>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1805.11850" target="_blank">ボケをかますAI -Neural Joking Machine-（CVPRW 2018）</a></li>
-          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1811.06943" target="_blank">論文の自動要約 (ICMV 2018)</a></li>
+          <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1811.06943" target="_blank">論文の自動要約</a>
+		        （ICMV 2018）</li>
         </ul>
 
         <hr class="my-4">
