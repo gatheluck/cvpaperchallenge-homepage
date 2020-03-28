@@ -117,7 +117,7 @@
 			  （<a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Suzuki_Anticipating_Traffic_Accidents_CVPR_2018_paper.html" target="_blank">CVPR 2018</a>）</li>
         </ul>
 
-        <h5 class="mt-4">大規模DB構築</h5>
+        <h5 class="mt-4">大規模 DB 構築</h5>
         <ul>
           <li class="text-justify mt-1"><a href="https://arxiv.org/abs/1703.07920" target="_blank">超大規模ファッションDB解析</a>
 		  	  （CVPR 2019 Workshop, MIRU 2017 Best Student Paper)</li>
@@ -139,6 +139,12 @@
 				（<a href="https://ieeexplore.ieee.org/document/8885753" target="_blank">3DV 2019</a>）</li>
 			<li class="text-justify mt-1">Neural Joking Machine
 				（HCI 2020）</li>
+		</ul>
+
+		<h5 class="mt-4">3D Vision</h5>
+		<ul>
+			<li class="text-justify mt-1">Self occlusion に頑健な visual servoing</li>
+			<li class="text-justify mt-1">RGB-D 情報を活用した物体の 6D Pose Estimation</li>
 		</ul>
 
         <h5 class="mt-4">その他</h5>
