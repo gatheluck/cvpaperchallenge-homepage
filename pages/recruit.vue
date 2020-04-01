@@ -172,7 +172,7 @@
           <li class="text-justify mt-2"><span class="font-weight-bold">研究メンバーとしての目標は？</span>：2020年は「Google Scholar TOP20 にリストアップされている国際会議 / ジャーナルに30本以上投稿すること」を目標として掲げています。「30本以上投稿」という目標は論文を執筆して投稿するまでの経験を重ねるために設けましたが、もちろん全て査読突破できるレベルまで持っていけるよう内部査読などの完成度を高める工夫を行っています。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">コンピュータビジョンが専門ではないんだけど大丈夫？</span>：コンピュータビジョンや他分野の融合により大きなインパクトを生み出した、という例は少なくないです。他分野の方も大歓迎です！</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">大学や企業、研究機関をまたいだ横のつながりはないの？</span>：サーベイメンバーに関しては、所属機関の制約は設けておりません。勉強会や情報共有チャンネルを立ち上げてディスカッションを行なっています。新しい勉強会やサーベイプロジェクト、懇親会やイベント等、積極的に企画してください。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold"><a href="http://xpaperchallenge.org/nlp/">nlpaper.challenge</a>や<a href="https://sites.google.com/view/robotpaperchallenge/home">robotpaper.challenge</a>との関係性は？</span>：研究コミュニティ名は異なりますが、基本的には連携して活動しています。これらの研究コミュニティと連携して網羅的サーベイや研究プロジェクトを加速させていきたいです。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold"><a href="http://xpaperchallenge.org/nlp/">nlpaper.challenge</a> や <a href="https://sites.google.com/view/robotpaperchallenge/home">robotpaper.challenge</a> との関係性は？</span>：研究コミュニティ名は異なりますが、基本的には連携して活動しています。これらの研究コミュニティと連携して網羅的サーベイや研究プロジェクトを加速させていきたいです。</li>
         </ul>  
         <hr class="my-4">
       </div>
