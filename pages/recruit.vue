@@ -91,7 +91,7 @@
       </div>
 
       <div class="mt-4">
-        <h2 class="mt-4">注力分野</h2>
+        <h2 class="mt-4">研究分野</h2>
 
         <h5 class="mt-4">動画像認識</h5>
         <ul>
