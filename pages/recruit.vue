@@ -82,7 +82,7 @@
         <ul>
           <li class="text-justify mt-1"><span class="font-weight-bold">概要</span>：産総研ポスドクとして産総研に所属し、産総研のリソースを使いながら研究立案、実験、論文執筆、投稿を行うことができます。雇用プロジェクトの研究に従事しつつ cvpaper.challenge メンバーと独自の研究をすることができます。雇用可能なプロジェクトの有無や研究内容は場合により異なるのでお問い合わせください。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">対象</span>：博士号取得者（学位取得後7年以内）</li>
-          <li class="text-justify mt-1"><span class="font-weight-bold">給与</span>：時給2200円、2500円、2700円（産総研規定により決定）</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">給与</span>：時給2,200円、2,500円、2,700円（産総研規定により決定）</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">場所</span>：産総研つくばセンター（茨城県つくば市）</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">勤務時間</span>：週5日、1日7時間45分（休憩1時間）、フレックスタイム制可</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">詳細情報</span>：<a href="https://www.aist.go.jp/aist_j/humanres/04keiyaku/index.html">産総研のHP</a>をご確認ください。</li>
