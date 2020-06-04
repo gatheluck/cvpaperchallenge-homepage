@@ -31,14 +31,27 @@
       </div>
 
       <!-- slide items -->
-      <b-row v-for="([ slide1, slide2 ], idx) in slidePairs" :key="idx" class="mb-1">
-        <b-col class="mb-1" cols="12" md="6">
-          <slide-card :slide="slide1"/>
-        </b-col>
-        <b-col v-if="slide2">
-          <slide-card :slide="slide2"/>
-        </b-col>
-      </b-row>
+      <div align="left" v-for="([ slide1, slide2 ], idx) in slidePairs" :key="idx"  class="mb-1">
+        <!-- if both slide1 and slide2 have values -->
+        <div v-if="slide2">
+          <!-- use b-card-group to automatically align the hight of slide cards -->
+          <b-card-group deck>  
+            <slide-card :slide="slide1"/>
+            <slide-card :slide="slide2"/>
+          </b-card-group>
+        </div>
+
+        <!-- only slide1 has value -->
+        <div v-else>
+          <!-- use b-row and b-col to prevent weird stretch of last card -->
+          <b-row class="mb-1">
+            <b-col class="mb-1" cols="12" md="6">
+              <slide-card :slide="slide1"/>
+            </b-col>
+          </b-row>
+        </div>
+      </div>
+
     </b-container>
     <p v-else class="text-center">
       <font-awesome-icon class="mr-5" :icon="['fas', 'spinner']" pulse size="2x"/>
