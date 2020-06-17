@@ -1,6 +1,6 @@
 <template>
   <div>
-	<!-- page head -->
+  <!-- page head -->
     <b-jumbotron header-level="4">
       <template slot="header">
         <b-container>
@@ -17,12 +17,27 @@
       </template>
     </b-jumbotron>
 
+    <!-- Survey part -->
+    <b-container>
+      <div class="mt-4">
+        <h2>Survey</h2>
+        <b-card title="網羅的サーベイ"
+                class="mt-2 with-shadow">
+          <b-card-text>
+            CV分野のトップ会議に採択された論文の網羅的なサーベイを行い、まとめ資料を公開しています。
+          </b-card-text>
+
+          <a target="_blank" href="http://xpaperchallenge.org/cv/survey/">[Project page]</a>
+        </b-card>
+      </div>
+    </b-container>
+
     <!-- Slides part -->
     <b-container v-if="!isLoading">
       <div class="mt-4">
         <h2>Slides</h2>
         <b-pagination
-		    v-model="slidesCurrentPage"
+        v-model="slidesCurrentPage"
         :total-rows="Math.ceil(slides.length/2)"
         :per-page="slidesPerPage"
         align="center"
