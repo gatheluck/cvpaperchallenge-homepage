@@ -22,6 +22,7 @@
           <b-nav-item to="/recruit" :active="isActive('/recruit')">Recruit</b-nav-item>
           
           <b-nav-item-dropdown text="Survey">
+			<b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/eccv2020_summaries/">ECCV 2020</b-dropdown-item>
             <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/cvpr2020_summaries/">CVPR 2020</b-dropdown-item>
             <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/iccv2019_summaries/">ICCV 2019</b-dropdown-item>
             <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/cvpr2019_summaries/">CVPR 2019</b-dropdown-item>
