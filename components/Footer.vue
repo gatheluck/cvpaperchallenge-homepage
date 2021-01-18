@@ -15,10 +15,25 @@
     </div>
 
     <div class="bg-info bg-dark text-light">
-        <h5 class="text-center pt-2 pb-2 mb-0">&copy;2020 cvpaper.challenge</h5>
+        <h5 class="text-center pt-2 pb-2 mb-0">&copy; 2015 - {{ year }} cvpaper.challenge</h5>
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  data: () => {
+    return {
+      year: '', // store year (substitute afterward)
+    }
+  },
+  created(){
+    // get year
+    const d = new Date()
+    this.year = d.getFullYear()
+  },
+}
+</script>
 
 <style>
 a.unstyled {
