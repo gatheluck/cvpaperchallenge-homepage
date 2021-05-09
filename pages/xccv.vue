@@ -69,7 +69,7 @@
 
         <h5 class="mt-4">応募方法</h5>
 
-        <p class="text-justify"><span class="font-weight-bold"><a href="">[プログラム 応募フォーム]</a></span></p>
+        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="">[プログラム 応募フォーム はこちら]</a></span></p>
 
         <p class="text-justify">上記の応募フォームから、必要項目を入力の上、ご応募ください。</p>
 
