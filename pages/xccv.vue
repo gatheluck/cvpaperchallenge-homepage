@@ -39,7 +39,6 @@
 
       <div class="mt-4">
         <h2 id="aist_recruitment">スケジュールとプログラム内容</h2>
-        <p class="text-justify">cvpaper.challenge の主要メンバーに産総研研究員がいる関係で、産総研の各種制度を利用して研究に参加することが可能です。具体的には、以下の3つの形態でメンバーを募集しています。</p>
 
         <h5 class="mt-4">スケジュール</h5>
         <b-container>
