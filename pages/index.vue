@@ -21,6 +21,15 @@
 
     <!-- Button -->
     <b-container>
+    <div class="text-center mb-3">
+      <b-button class="main-button" to="/xccv" size="lg" variant="primary">
+        <span>PRMU RMP x cvpaper.challenge<br>研究メンバー募集ページ</span>
+        <font-awesome-icon icon="angle-right"/>
+      </b-button>
+    </div>
+    </b-container>
+
+    <b-container>
     <div class="text-center">
       <b-button class="main-button" to="/recruit" size="lg" variant="dark">
         <span>メンバー募集ページ</span>
@@ -30,24 +39,24 @@
     </b-container>
   </b-jumbotron>
 
-	<!-- New Feed -->
-	<b-container>
+  <!-- New Feed -->
+  <b-container>
   <div class="mt-4">
-		<b-row class="mt-5">
+    <b-row class="mt-5">
       <b-col cols="12">
         <news-feed :news="news" :isLoading="isLoading"/>
       </b-col>
     </b-row>
   </div>
-	</b-container>
+  </b-container>
 
-	<!-- Contact -->
-	<b-container>
-	<div class="mt-4">
-		<h2>Contact</h2>
+  <!-- Contact -->
+  <b-container>
+  <div class="mt-4">
+    <h2>Contact</h2>
     <a href="mailto:cvpaper.challenge&#64;gmail.com">cvpaper.challenge [at] gmail.com</a>
-	</div>
-	</b-container>
+  </div>
+  </b-container>
 </div>
 </template>
 
