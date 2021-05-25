@@ -1,0 +1,82 @@
+[
+  {
+    "date": "2021.05.25",
+    "title": "PRMU 研究メンターシッププログラムとの連携プログラムを開始しました.",
+    "link": "http://xpaperchallenge.org/cv/xccv"
+  },
+  {
+    "date": "2021.05.22",
+    "title": "「Can Vision Transformer Learn without Natural Images?」のコードを公開しました.",
+    "link": "https://github.com/nakashima-kodai/FractalDB-Pretrained-ViT-PyTorch"
+  },
+  {
+    "date": "2021.05.19",
+    "title": "メタサーベイ「Cross-modality meta-survey of dataset」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/crossmodality-metasurvey-of-dataset"
+  },
+  {
+    "date": "2021.05.17",
+    "title": "メタサーベイ「動画認識における代表的なモデル・データセット」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/ss-248333069"
+  },
+  {
+    "date": "2021.05.03",
+    "title": "メタサーベイ「効率的学習 / Efficient Training」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/efficient-training"
+  },
+  {
+    "date": "2021.04.30",
+    "title": "メタサーベイ「Transformer メタサーベイ」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/transformer-247407256"
+  },
+  {
+    "date": "2021.04.30",
+    "title": "メタサーベイ「High-impact Papers in Computer Vision: 歴史を変えた/トレンドを創る論文」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/highimpact-papers-in-computer-vision"
+  },
+  {
+    "date": "2021.04.14",
+    "title": "1本の論文が CVPR 2021 Workshop on Large Scale Holistic Video Understanding に採択されました.",
+    "link": "https://holistic-video-understanding.github.io/workshops/cvpr2021.html"
+  },
+  {
+    "date": "2021.03.25",
+    "title": "1本の論文を arXiv に公開しました.",
+    "link": "https://arxiv.org/abs/2103.13023"
+  },
+  {
+    "date": "2021.03.25",
+    "title": "1本の論文を arXiv に公開しました.",
+    "link": "https://arxiv.org/abs/2103.14146"
+  },
+  {
+    "date": "2021.02.10",
+    "title": "研究ノウハウに関するスライド「コンピュータビジョン分野メジャー国際会議 Award までの道のり」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/award-242490677"
+  },
+  {
+    "date": "2021.02.04",
+    "title": "MIT Technology Review に研究が取り上げられました.",
+    "link": "https://www.technologyreview.com/2021/02/04/1017486/fractals-ai-learn-see-more-ethically-bias-imagenet-training/"
+  },
+  {
+    "date": "2021.02.04",
+    "title": "第3次AIブームにおけるCV分野の概要をまとめたスライド「コンピュータビジョンの研究開発状況」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/ss-242266407"
+  },
+  {
+    "date": "2021.01.27",
+    "title": "研究ノウハウに関するスライド「cvpaper.challenge 研究効率化 Tips」を公開しました.",
+    "link": "https://www.slideshare.net/cvpaperchallenge/cvpaperchallenge-tips-241914101"
+  },
+  {
+    "date": "2021.01.08",
+    "title": "「Pre-training without Natural Images」のコードを公開しました.",
+    "link": "https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch"
+  },
+  {
+    "date": "2021.01.01",
+    "title": "cvpaper.challenge 2021 始動",
+    "link": ""
+  }
+]
