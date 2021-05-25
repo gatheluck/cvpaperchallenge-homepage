@@ -3,37 +3,48 @@
     <h2>What's New</h2>
     <b-list-group v-if="!isLoading" class="mt-4">
       <b-list-group-item
-        v-for="(news, idx) in latestNews"
+        v-for="(news, idx) in newsItems"
         :key="idx"
-        :href="news.url"
+        :href="news.link"
         target="_blank"
       >
         <b-row>
           <b-col
-            cols="4"
+            cols="2"
             md="2"
-            class="text-right"
-          >{{ new Date(news.date).toLocaleDateString('ja-JP') }}</b-col>
-          <b-col>{{ news.content }}</b-col>
+            class="text-left"
+          >{{ news.date }}</b-col>
+          <b-col>{{ news.title }}</b-col>
         </b-row>
       </b-list-group-item>
     </b-list-group>
+    <b-button :pressed.sync="isShowingAllNews" variant="dark" class="mt-2">{{ showButtonMessage  }}</b-button>
 </div>  
 </template>
 
 <script>
-export default {
-  props: {
-    news: Array,
-    isLoading: Boolean
-  },
+const allNews = require('~/data/news.json')
 
-  computed: {
-    latestNews() {
-      return [...this.news].sort(
-        (a, b) => new Date(b.date) - new Date(a.date)
-      );
+export default {
+	data() {
+    return {
+      isShowingAllNews: false
     }
+  },
+  computed:{
+    newsItems() {
+      if (this.isShowingAllNews) {
+        return allNews
+      }
+      return allNews.slice(0, 5)
+    },
+    showButtonMessage() {
+      if (this.isShowingAllNews) {
+        return "Hide"
+      } else {
+        return "Read More"
+      }
+    }  
   }
 }
 </script>
