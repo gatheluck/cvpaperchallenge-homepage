@@ -82,7 +82,7 @@
 
         <h5 class="mt-4">応募方法</h5>
 
-        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://forms.gle/vFsY6xp1iTHJdrkS7" target="_blank">[プログラム 応募フォームはこちら]</a></span></p>
+        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQTiBHUeJ3mKMgNkpQ2Z1Jdj5iJ7K5_L6dSgBK_MXSDJ5frg/viewform?usp=sf_link" target="_blank">[プログラム 応募フォームはこちら]</a></span></p>
 
         <p class="text-justify">上記の応募フォームから、必要項目を入力の上、ご応募ください。</p>
 
