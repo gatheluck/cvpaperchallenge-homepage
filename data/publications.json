@@ -2,7 +2,7 @@
   {
     "title": "Rethinking Training Data for Mitigating Representation Biases in Action Recognition",
     "author": "Kensho Hara, Yuchi Ishikawa, Hirokatsu Kataoka",
-    "in": "CVPR Workshop on Large Scale Holistic Video Understanding",
+    "in": "CVPR 2021 Workshop on Large Scale Holistic Video Understanding",
     "year": 2021,
     "image": "bg.png",
     "mention": "",
@@ -158,6 +158,60 @@
     "mention": "",
     "links": {
       "PDF": "https://link.springer.com/chapter/10.1007/978-3-030-50334-5_29"
+    }
+  },
+  {
+    "title": "What Do Adversarially Robust Models Look At?",
+    "author": "Takahiro Itazuri*, Yoshihiro Fukuhara*, Hirokatsu Kataoka, Shigeo Morishima",
+    "in": "arXiv",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/1905.07666"
+    }
+  },
+  {
+    "title": "Incorporating 3D Information Into Visual Question Answering",
+    "author": "Yue Qiu, Yutaka Satoh, Ryota Suzuki, Hirokatsu Kataoka",
+    "in": "International Conference on 3D Vision (3DV)",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/8885753"
+    }
+  },
+  {
+    "title": "Visual Question Answering with RGB-D Images",
+    "author": "Yue Qiu, Yutaka Satoh, Hirokatsu Kataoka, Ryota Suzuki",
+    "in": "CVPR 2019 Workshop on Women in Computer Vision (WiCV)",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {}
+  },
+  {
+    "title": "Ten-million-order Human Database for World-wide Fashion Culture Analysis",
+    "author": "Hirokatsu Kataoka, Kaori Abe, Munetaka Minoguchi, Akio Nakamura, Yutaka Satoh",
+    "in": "CVPR 2019 Workshop on Understanding Subjective Attributes of Data, Focus on Fashion and Subjective Search (FFSS-USAD)",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://openaccess.thecvf.com/content_CVPRW_2019/html/FFSS-USAD/Kataoka_Ten-Million-Order_Human_Database_for_World-Wide_Fashion_Culture_Analysis_CVPRW_2019_paper.html",
+      "Code": "https://github.com/cvpaperchallenge/FashionCultureDataBase_DLoader"
+    }
+  },
+  {
+    "title": "Unsupervised Out-of-context Action Understanding",
+    "author": "Hirokatsu Kataoka, Yutaka Satoh",
+    "in": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/8793709"
     }
   }
 ]
