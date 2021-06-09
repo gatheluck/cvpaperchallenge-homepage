@@ -1,0 +1,163 @@
+[ 
+  {
+    "title": "Rethinking Training Data for Mitigating Representation Biases in Action Recognition",
+    "author": "Kensho Hara, Yuchi Ishikawa, Hirokatsu Kataoka",
+    "in": "CVPR Workshop on Large Scale Holistic Video Understanding",
+    "year": 2021,
+    "image": "bg.png",
+    "mention": "",
+    "links": {}
+  },
+  {
+    "title": "Alleviating Over-segmentation Errors by Detecting Action Boundaries",
+    "author": "Yuchi Ishikawa, Seito Kasai, Yoshimitsu Aoki, Hirokatsu Kataoka",
+    "in": "Winter Conference on Applications of Computer Vision (WACV)",
+    "year": 2021,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://yiskw713.github.io/asrf/",
+      "PDF": "https://openaccess.thecvf.com/content/WACV2021/html/Ishikawa_Alleviating_Over-Segmentation_Errors_by_Detecting_Action_Boundaries_WACV_2021_paper.html",
+      "Code": "https://github.com/yiskw713/asrf/"
+    }
+  },
+  {
+    "title": "Viewpoint-agnostic Image Rendering",
+    "author": "Hiroaki Aizawa, Hirokatsu Kataoka, Yutaka Satoh, Kunihito Kato",
+    "in": "Winter Conference on Applications of Computer Vision (WACV)",
+    "year": 2021,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://aizawan.github.io/vair/",
+      "PDF": "https://openaccess.thecvf.com/content/WACV2021/html/Aizawa_Viewpoint-Agnostic_Image_Rendering_WACV_2021_paper.html"
+    }
+  },
+  {
+    "title": "Pre-training without Natural Images",
+    "author": "Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura, Yutaka Satoh",
+    "in": "Asian Conference on Computer Vision (ACCV)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "Best Paper Honorable Mention Award",
+    "links": {
+      "Project Page": "https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/",
+      "PDF": "https://openaccess.thecvf.com/content/ACCV2020/html/Kataoka_Pre-training_without_Natural_Images_ACCV_2020_paper.html",
+      "Code": "https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch",
+      "Video": "https://youtu.be/d-NagM4nGIQ"
+    }
+  },
+  {
+    "title": "3D-Aware Scene Change Captioning from Multiview Images",
+    "author": "Yue Qiu, Yutaka Satoh, Ryota Suzuki, Kenji Iwata, Hirokatsu Kataoka",
+    "in": "IEEE Robotics and Automation Letters (RA-L) with IROS presentation",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9120195/"
+    }
+  },
+  {
+    "title": "Initialization Using Perlin Noise for Training Networks with a Limited Amount of Data",
+    "author": "Nakamasa Inoue*, Eisuke Yamagata*, Hirokatsu Kataoka",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9412955"
+    }
+  },
+  {
+    "title": "Augmented Cyclic Consistency Regularization for Unpaired Image-to-Image Translation",
+    "author": "Takehiko Ohkawa, Naoto Inoue, Hirokatsu Kataoka, Nakamasa Inoue",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9412082"
+    }
+  },
+  {
+    "title": "Adversarial Knowledge Distillation for a Compact Generator",
+    "author": "Hideki Tsunashima, Shigeo Morishima, Junji Yamato, Qiu Chen, Hirokatsu Kataoka",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9413150"
+    }
+  },
+  {
+    "title": "Disentangle, Assemble, and Synthesize: Unsupervised Learning to Disentangle Appearance and Location",
+    "author": "Hiroaki Aizawa, Hirokatsu Kataoka, Yutaka Satoh, Kunihito Kato",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://aizawan.github.io/das/",
+      "PDF": "https://ieeexplore.ieee.org/abstract/document/9413032"
+    }
+  },
+  {
+    "title": "Retrieving and Highlighting Action with Spatiotemporal Reference",
+    "author": "Seito Kasai, Yuchi Ishikawa, Masaki Hayashi, Yoshimitsu Aoki, Kensho Hara, Hirokatsu Kataoka",
+    "in": "IEEE International Conference on Image Processing (ICIP)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/abstract/document/9190820"
+    }
+  },
+  {
+    "title": "Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs?",
+    "author": "Hirokatsu Kataoka, Tenga Wakamiya, Kensho Hara, Yutaka Satoh",
+    "in": "arXiv",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/2004.04968",
+      "Code": "https://github.com/kenshohara/3D-ResNets-PyTorch"
+    }
+  },
+  {
+    "title": "Weakly Supervised Dataset Collection for Robust Person Detection",
+    "author": "Munetaka Minoguchi, Ken Okayama, Yutaka Satoh, Hirokatsu Kataoka",
+    "in": "arXiv",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/2003.12263",
+      "Code": "https://github.com/cvpaperchallenge/FashionCultureDataBase_DLoader"
+    }
+  },
+  {
+    "title": "Joint Pedestrian Detection and Risk-level Prediction with Motion-Representation-by-Detection",
+    "author": "Hirokatsu Kataoka, Teppei Suzuki, Kodai Nakashima, Yutaka Satoh, Yoshimitsu Aoki",
+    "in": "International Conference on Robotics and Automation (ICRA)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9197399"
+    }
+  },
+  {
+    "title": "Joking AI via Visual Cues",
+    "author": "Ryota Suzuki, Kota Yoshida, Munetaka Minoguchi, Kazuki Tsubura, Takumu Ikeya, Akio Nakamura, Hirokatsu Kataoka",
+    "in": "Human Computer Interaction International (HCI)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://link.springer.com/chapter/10.1007/978-3-030-50334-5_29"
+    }
+  }
+]
