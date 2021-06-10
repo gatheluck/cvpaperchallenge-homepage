@@ -19,8 +19,8 @@
     <b-container>
       <div class="text-center pub-item">
       <b-card
-        v-for="pub in publications"
-        :key="pub.title"
+        v-for="(pub, id) in publications"
+        :key="id"
         no-body
         align="left"
         class="border-0 mb-4"
@@ -28,7 +28,6 @@
         <b-row no-gutters>
           <!-- left side -->
           <b-col
-            v-if="pub.image"
             xl="2"
             lg="3"
             md="4"
@@ -37,7 +36,14 @@
             class="mr-3"
           >
             <b-card-img
+              v-if="pub.image"
               :src="require('~/static/image/publications/' + pub.image)"
+              alt="Image"
+              style="max-width: 300px"
+            ></b-card-img>
+            <b-card-img
+              v-else
+              :src="require('~/static/image/publications/bg.png')"
               alt="Image"
               style="max-width: 300px"
             ></b-card-img>
