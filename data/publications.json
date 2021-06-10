@@ -1,0 +1,217 @@
+{
+  "ktborraeklwpgaqd": {
+    "title": "Rethinking Training Data for Mitigating Representation Biases in Action Recognition",
+    "author": "Kensho Hara, Yuchi Ishikawa, Hirokatsu Kataoka",
+    "in": "CVPR 2021 Workshop on Large Scale Holistic Video Understanding",
+    "year": 2021,
+    "image": "",
+    "mention": "",
+    "links": {}
+  },
+  "egycutvtwzknmczf": {
+    "title": "Alleviating Over-segmentation Errors by Detecting Action Boundaries",
+    "author": "Yuchi Ishikawa, Seito Kasai, Yoshimitsu Aoki, Hirokatsu Kataoka",
+    "in": "Winter Conference on Applications of Computer Vision (WACV)",
+    "year": 2021,
+    "image": "egycutvtwzknmczf.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://yiskw713.github.io/asrf/",
+      "PDF": "https://openaccess.thecvf.com/content/WACV2021/html/Ishikawa_Alleviating_Over-Segmentation_Errors_by_Detecting_Action_Boundaries_WACV_2021_paper.html",
+      "Code": "https://github.com/yiskw713/asrf/"
+    }
+  },
+  "ghrqafbamvlspoya": {
+    "title": "Viewpoint-agnostic Image Rendering",
+    "author": "Hiroaki Aizawa, Hirokatsu Kataoka, Yutaka Satoh, Kunihito Kato",
+    "in": "Winter Conference on Applications of Computer Vision (WACV)",
+    "year": 2021,
+    "image": "ghrqafbamvlspoya.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://aizawan.github.io/vair/",
+      "PDF": "https://openaccess.thecvf.com/content/WACV2021/html/Aizawa_Viewpoint-Agnostic_Image_Rendering_WACV_2021_paper.html"
+    }
+  },
+  "hzszcdhfzdeldizb": {
+    "title": "Pre-training without Natural Images",
+    "author": "Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura, Yutaka Satoh",
+    "in": "Asian Conference on Computer Vision (ACCV)",
+    "year": 2020,
+    "image": "hzszcdhfzdeldizb.png",
+    "mention": "Best Paper Honorable Mention Award",
+    "links": {
+      "Project Page": "https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/",
+      "PDF": "https://openaccess.thecvf.com/content/ACCV2020/html/Kataoka_Pre-training_without_Natural_Images_ACCV_2020_paper.html",
+      "Code": "https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch",
+      "Video": "https://youtu.be/d-NagM4nGIQ"
+    }
+  },
+  "ixonziryyhqblvkg": {
+    "title": "3D-Aware Scene Change Captioning from Multiview Images",
+    "author": "Yue Qiu, Yutaka Satoh, Ryota Suzuki, Kenji Iwata, Hirokatsu Kataoka",
+    "in": "IEEE Robotics and Automation Letters (RA-L) with IROS presentation",
+    "year": 2020,
+    "image": "",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9120195/"
+    }
+  },
+  "lnpkbtzbrbpfbwnk": {
+    "title": "Initialization Using Perlin Noise for Training Networks with a Limited Amount of Data",
+    "author": "Nakamasa Inoue*, Eisuke Yamagata*, Hirokatsu Kataoka",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "lnpkbtzbrbpfbwnk.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9412955"
+    }
+  },
+  "rtppbnviccpwnfbu": {
+    "title": "Augmented Cyclic Consistency Regularization for Unpaired Image-to-Image Translation",
+    "author": "Takehiko Ohkawa, Naoto Inoue, Hirokatsu Kataoka, Nakamasa Inoue",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "rtppbnviccpwnfbu.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9412082"
+    }
+  },
+  "tujlhqorxlbxcolg": {
+    "title": "Adversarial Knowledge Distillation for a Compact Generator",
+    "author": "Hideki Tsunashima, Shigeo Morishima, Junji Yamato, Qiu Chen, Hirokatsu Kataoka",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "tujlhqorxlbxcolg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9413150"
+    }
+  },
+  "dqkjudqykbzpufrv": {
+    "title": "Disentangle, Assemble, and Synthesize: Unsupervised Learning to Disentangle Appearance and Location",
+    "author": "Hiroaki Aizawa, Hirokatsu Kataoka, Yutaka Satoh, Kunihito Kato",
+    "in": "International Conference on Pattern Recognition (ICPR)",
+    "year": 2020,
+    "image": "dqkjudqykbzpufrv.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://aizawan.github.io/das/",
+      "PDF": "https://ieeexplore.ieee.org/abstract/document/9413032"
+    }
+  },
+  "tkhewubmipystbfq": {
+    "title": "Retrieving and Highlighting Action with Spatiotemporal Reference",
+    "author": "Seito Kasai, Yuchi Ishikawa, Masaki Hayashi, Yoshimitsu Aoki, Kensho Hara, Hirokatsu Kataoka",
+    "in": "IEEE International Conference on Image Processing (ICIP)",
+    "year": 2020,
+    "image": "tkhewubmipystbfq.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/abstract/document/9190820"
+    }
+  },
+  "jinzwknhxqdaveoz": {
+    "title": "Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs?",
+    "author": "Hirokatsu Kataoka, Tenga Wakamiya, Kensho Hara, Yutaka Satoh",
+    "in": "arXiv",
+    "year": 2020,
+    "image": "jinzwknhxqdaveoz.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/2004.04968",
+      "Code": "https://github.com/kenshohara/3D-ResNets-PyTorch"
+    }
+  },
+  "vijjhskspcunwlji": {
+    "title": "Weakly Supervised Dataset Collection for Robust Person Detection",
+    "author": "Munetaka Minoguchi, Ken Okayama, Yutaka Satoh, Hirokatsu Kataoka",
+    "in": "arXiv",
+    "year": 2020,
+    "image": "vijjhskspcunwlji.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/2003.12263",
+      "Code": "https://github.com/cvpaperchallenge/FashionCultureDataBase_DLoader"
+    }
+  },
+  "ltkdtxxqhkcwytim": {
+    "title": "Joint Pedestrian Detection and Risk-level Prediction with Motion-Representation-by-Detection",
+    "author": "Hirokatsu Kataoka, Teppei Suzuki, Kodai Nakashima, Yutaka Satoh, Yoshimitsu Aoki",
+    "in": "International Conference on Robotics and Automation (ICRA)",
+    "year": 2020,
+    "image": "ltkdtxxqhkcwytim.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/9197399"
+    }
+  },
+  "diinpvciivahqunn": {
+    "title": "Joking AI via Visual Cues",
+    "author": "Ryota Suzuki, Kota Yoshida, Munetaka Minoguchi, Kazuki Tsubura, Takumu Ikeya, Akio Nakamura, Hirokatsu Kataoka",
+    "in": "Human Computer Interaction International (HCI)",
+    "year": 2020,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://link.springer.com/chapter/10.1007/978-3-030-50334-5_29"
+    }
+  },
+  "bagzypmmrslkkrbb": {
+    "title": "What Do Adversarially Robust Models Look At?",
+    "author": "Takahiro Itazuri*, Yoshihiro Fukuhara*, Hirokatsu Kataoka, Shigeo Morishima",
+    "in": "arXiv",
+    "year": 2019,
+    "image": "bagzypmmrslkkrbb.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/1905.07666"
+    }
+  },
+  "wwzjqcsuhhaoucvo": {
+    "title": "Incorporating 3D Information Into Visual Question Answering",
+    "author": "Yue Qiu, Yutaka Satoh, Ryota Suzuki, Hirokatsu Kataoka",
+    "in": "International Conference on 3D Vision (3DV)",
+    "year": 2019,
+    "image": "wwzjqcsuhhaoucvo.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/8885753"
+    }
+  },
+  "fyfljoogzqmzdicr": {
+    "title": "Visual Question Answering with RGB-D Images",
+    "author": "Yue Qiu, Yutaka Satoh, Hirokatsu Kataoka, Ryota Suzuki",
+    "in": "CVPR 2019 Workshop on Women in Computer Vision (WiCV)",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {}
+  },
+  "kziavdhordlwtqjr": {
+    "title": "Ten-million-order Human Database for World-wide Fashion Culture Analysis",
+    "author": "Hirokatsu Kataoka, Kaori Abe, Munetaka Minoguchi, Akio Nakamura, Yutaka Satoh",
+    "in": "CVPR 2019 Workshop on Understanding Subjective Attributes of Data, Focus on Fashion and Subjective Search (FFSS-USAD)",
+    "year": 2019,
+    "image": "kziavdhordlwtqjr.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://openaccess.thecvf.com/content_CVPRW_2019/html/FFSS-USAD/Kataoka_Ten-Million-Order_Human_Database_for_World-Wide_Fashion_Culture_Analysis_CVPRW_2019_paper.html",
+      "Code": "https://github.com/cvpaperchallenge/FashionCultureDataBase_DLoader"
+    }
+  },
+  "ykhhpblqkyzcrsrb": {
+    "title": "Unsupervised Out-of-context Action Understanding",
+    "author": "Hirokatsu Kataoka, Yutaka Satoh",
+    "in": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "year": 2019,
+    "image": "bg.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/document/8793709"
+    }
+  }
+}

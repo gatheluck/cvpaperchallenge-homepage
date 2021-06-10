@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pub">
     <b-jumbotron header-level="4">
       <template slot="header">
         <b-container>
@@ -16,80 +16,104 @@
       </template>
     </b-jumbotron>
 
-    <b-container v-if="!isLoading">
-      <v-row 
-        v-for="(publication, idx) in latestPublications"
-        :key="idx"
-        :href="publication.paper_url"
-        target="_blank">
-        <b-col>
-          <publication-card :publication="publication"/>
-        </b-col>
-      </v-row>
+    <b-container>
+      <div class="text-center pub-item">
+      <b-card
+        v-for="(pub, id) in publications"
+        :key="id"
+        no-body
+        align="left"
+        class="border-0 mb-4"
+      >
+        <b-row no-gutters>
+          <!-- left side -->
+          <b-col
+            xl="2"
+            lg="3"
+            md="4"
+            sm="auto"
+            cols="auto"
+            class="mr-3"
+          >
+            <b-card-img
+              v-if="pub.image"
+              :src="require('~/static/image/publications/' + pub.image)"
+              alt="Image"
+              style="max-width: 300px"
+            ></b-card-img>
+            <b-card-img
+              v-else
+              :src="require('~/static/image/publications/bg.png')"
+              alt="Image"
+              style="max-width: 300px"
+            ></b-card-img>
+          </b-col>
+          <!-- right side -->
+          <b-col
+            xl="10"
+            lg="9"
+            md="8"
+            sm="12"
+            cols="12"
+            class="mt-n4 mb-n4 ml-n3"
+          >
+            <b-card-body>
+              <!-- title -->
+              <b-card-title title-tag="h2">
+                <span v-html="pub.title"></span>
+              </b-card-title>
+              <!-- in -->
+              <b-card-sub-title sub-title-tag="p">
+                In <span v-html="pub.in" class="font-italic"></span> <span v-html="pub.year"></span>
+                <span v-if="pub.mention" v-html="', '"></span>
+                <span v-if="pub.mention" v-html="pub.mention" class="text-primary"></span>
+              </b-card-sub-title>
+              <!-- authors and links -->
+              <b-card-text>
+                <span v-html="pub.author"></span>
+                <br>
+                <b-button class="btn" variant="outline-primary" v-bind:href="link" target='_blank' v-for="(link, key) in pub.links" :key="key">
+                  <span v-html="key"></span>
+                </b-button>
+              </b-card-text>
+            </b-card-body>
+          </b-col>
+        </b-row>
+      </b-card>
+    </div>
 
     </b-container>
-    <p v-else class="text-center">
-      <font-awesome-icon class="mr-5" :icon="['fas', 'spinner']" pulse size="2x"/>
-    </p>
   </div>
 </template>
 
 <script>
-import PublicationCard from "~/components/PublicationCard.vue";
-import axios from "axios";
-
-// 
-function parseConferenceName(publication) {
-  // arxiv preprint
-  if (publication.preprint=='Yes') 
-    return publication.conference_name;
-  
-  var confname_for_display = '';
-
-  // workshop
-  if (publication.conference_workshop) {
-    if (publication.conference_abbreviation){
-      confname_for_display += publication.conference_abbreviation;
-    } else {
-      confname_for_display += publication.conference_name;
-    }
-    confname_for_display += '  Workshop on  ' + publication.conference_workshop;
-  // conference procceding or journal
-  } else {
-    confname_for_display += publication.conference_name;
-    if (publication.conference_abbreviation)
-      confname_for_display += ' ('+ publication.conference_abbreviation +')';
-  }
-
-	if (publication.conference_year) {
-		confname_for_display += ', ' + publication.conference_year;
-  }
-  
-	return confname_for_display;
-}
-
 export default {
-  components: {
-    PublicationCard
-  },
-  asyncData() {
-    let publications = require('~/static/data/publications.json').content;
+  data() {
+    const publications = require('~/data/publications.json')
+    console.log(publications);
     return {
       publications,
-      isLoading: false
     }
   },
-  computed: {
-	  latestPublications() {
-      let sorted_publications = this.publications.sort(this.$compareByDate);
-	  
-	    sorted_publications.forEach(
-        function(value, index) {
-          sorted_publications[index]['confname_for_display'] = parseConferenceName(value);
-        });
-      
-      return sorted_publications
-    }
-  }
-};
+}
 </script>
+
+<style>
+.pub .pub-item h2 {
+  font-size: 24px;
+}
+
+.pub .pub-item p {
+  font-size: 14px;
+}
+
+/* .pub .pub-item .mention {
+  color: primary;
+} */
+
+.pub .btn {
+  margin-top: 4px;
+  margin-right: 4px;
+  font-size: 14px
+}
+</style>
