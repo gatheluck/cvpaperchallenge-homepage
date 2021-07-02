@@ -1,4 +1,15 @@
 {
+  "nnucfrbvxpodfcng": {
+    "title": "MV-FractalDB: Formula-driven Supervised Learning for Multi-view Image Recognition",
+    "author": "Ryosuke Yamada, Ryo Takahashi, Ryota Suzuki, Akio Nakamura, Yusuke Yoshiyasu, Ryusuke Sagawa, Hirokatsu Kataoka",
+    "in": "International Conference on Intelligent Robots and Systems (IROS)",
+    "year": 2021,
+    "image": "nnucfrbvxpodfcng.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/"
+    }
+  },
   "unzoeslzaxfpoema": {
     "title": "Robust Self-Trained Person Detection for Vulnerable Road Users",
     "author": "Shunsuke Kogure, Kai Watabe, Ryosuke Yamada, Yoshimitsu Aoki, Akio Nakamura, Hirokatsu Kataoka",
@@ -7,8 +18,8 @@
     "image": "",
     "mention": "",
     "links": {
-		  "PDF": "https://drive.google.com/file/d/15kQMi5S6kwKa-_NEblT5To3IOdyZKaBs/view"
-	  }
+      "PDF": "https://drive.google.com/file/d/15kQMi5S6kwKa-_NEblT5To3IOdyZKaBs/view"
+    }
   },
   "ktborraeklwpgaqd": {
     "title": "Rethinking Training Data for Mitigating Representation Biases in Action Recognition",
