@@ -15,9 +15,10 @@
     "author": "Shunsuke Kogure, Kai Watabe, Ryosuke Yamada, Yoshimitsu Aoki, Akio Nakamura, Hirokatsu Kataoka",
     "in": "CVPR 2021 Workshop on Beyond Fairness: Towards a Just, Equitable, and Accountable Computer Vision (BeyondFairCV)",
     "year": 2021,
-    "image": "",
+    "image": "unzoeslzaxfpoema.png",
     "mention": "",
     "links": {
+      "Project Page": "https://590shun.github.io/Robust-Self-Trained-Person-Detection/",
       "PDF": "https://drive.google.com/file/d/15kQMi5S6kwKa-_NEblT5To3IOdyZKaBs/view"
     }
   },
