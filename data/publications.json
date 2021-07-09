@@ -1,4 +1,15 @@
 {
+  "teobpmiiusnurdex": {
+    "title": "A Case Study on User Evaluation of Scientific Publication Summarization by Japanese Students",
+    "author": "Shintaro Yamamoto, Ryota Suzuki, Tsukasa Fukusato, Hirokatsu Kataoka, Shigeo Morishima",
+    "in": "Applied Sciences",
+    "year":  "2021, 11(14), 6287",
+    "image": "teobpmiiusnurdex.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://www.mdpi.com/2076-3417/11/14/6287/"
+    }
+  },
   "nnucfrbvxpodfcng": {
     "title": "MV-FractalDB: Formula-driven Supervised Learning for Multi-view Image Recognition",
     "author": "Ryosuke Yamada, Ryo Takahashi, Ryota Suzuki, Akio Nakamura, Yusuke Yoshiyasu, Ryusuke Sagawa, Hirokatsu Kataoka",
