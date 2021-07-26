@@ -1,4 +1,16 @@
 {
+  "tpdiyrjuyjktfvvw": {
+  "title": "Describing and Localizing Multiple Change with Transformers",
+  "author": "Yue Qiu*, Shintaro Yamamoto*, Kodai Nakashima, Ryota Suzuki, Kenji Iwata, Hirokatsu Kataoka, Yutaka Satoh",
+  "in": "International Conference on Computer Vision (ICCV)",
+  "year": 2021,
+  "image": "tpdiyrjuyjktfvvw.png",
+  "mention": "",
+  "links": {
+      "Project Page": "https://cvpaperchallenge.github.io/Describing-and-Localizing-Multiple-Change-with-Transformers/",
+      "PDF": "https://arxiv.org/abs/2103.14146"
+    }
+  },
   "teobpmiiusnurdex": {
     "title": "A Case Study on User Evaluation of Scientific Publication Summarization by Japanese Students",
     "author": "Shintaro Yamamoto, Ryota Suzuki, Tsukasa Fukusato, Hirokatsu Kataoka, Shigeo Morishima",
