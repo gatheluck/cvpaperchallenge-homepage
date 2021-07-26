@@ -23,6 +23,7 @@
           
 
           <b-nav-item-dropdown text="Program">
+            <b-dropdown-item to="/ccc/ccc2021">cvpaper.challenge conference (CCC) 2021</b-dropdown-item>
             <b-dropdown-item to="/xccv">PRMU RMP x cvpaper.challenge</b-dropdown-item>
           </b-nav-item-dropdown>
 
