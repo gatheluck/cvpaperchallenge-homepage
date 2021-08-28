@@ -22,6 +22,7 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
+          <li class="text-justify mt-1"><span class="font-weight-bold">2021/08/28 </span>CCC 2021 は多くの皆様にご参加を頂き無事終了しました。誠にありがとうございました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/07/22 </span>プログラムを公開し、参加登録の受付を開始しました。</li>
         </ul>
 
@@ -29,7 +30,7 @@
       </div>
 
       <div class="mt-4">
-        <h2 id="aist_recruitment">参加登録について</h2>
+        <h2 id="aist_recruitment">参加登録について（締め切りました）</h2>
         <p class="text-justify">cvpaper.challenge conference 2021 (CCC 2021) への参加を希望される方は下記のフォームから事前の参加登録をお願い致します。</p>
         <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfivb1MR_D7r_La0nUOU8IsVcW_AVULpPY3q-s3jh8IlPHz7w/viewform" target="_blank">[参加登録はこちら]</a></span></p>
       
