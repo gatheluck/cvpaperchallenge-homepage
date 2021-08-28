@@ -22,7 +22,7 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
-          <li class="text-justify mt-1"><span class="font-weight-bold">2021/08/28 </span>CCC 2021 は多くの皆様にご参加を頂き無事終了しました。誠にありがとうございました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2021/08/28 </span>CCC 2021 は約700名の皆様にご登録・ご参加頂き無事終了しました。誠にありがとうございました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/07/22 </span>プログラムを公開し、参加登録の受付を開始しました。</li>
         </ul>
 
