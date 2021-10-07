@@ -1,14 +1,25 @@
 {
+  "pbxxilohzehnsare": {
+    "title": "Spatiotemporal Initialization for 3D CNNs with Generated Motion Patterns",
+    "author": "Hirokatsu Kataoka, Eisuke Yamagata, Kensho Hara, Ryusuke Hayashi, Nakamasa Inoue",
+    "in": "Winter Conference on Applications of Computer Vision (WACV)",
+    "year": 2022,
+    "image": "pbxxilohzehnsare.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://hirokatsukataoka16.github.io/Spatiotemporal-Initialization-for-3DCNNs/"
+    }
+  },
   "tpdiyrjuyjktfvvw": {
-  "title": "Describing and Localizing Multiple Change with Transformers",
-  "author": "Yue Qiu*, Shintaro Yamamoto*, Kodai Nakashima, Ryota Suzuki, Kenji Iwata, Hirokatsu Kataoka, Yutaka Satoh",
-  "in": "International Conference on Computer Vision (ICCV)",
-  "year": 2021,
-  "image": "tpdiyrjuyjktfvvw.png",
-  "mention": "",
-  "links": {
-      "Project Page": "https://cvpaperchallenge.github.io/Describing-and-Localizing-Multiple-Change-with-Transformers/",
-      "PDF": "https://arxiv.org/abs/2103.14146"
+    "title": "Describing and Localizing Multiple Change with Transformers",
+    "author": "Yue Qiu*, Shintaro Yamamoto*, Kodai Nakashima, Ryota Suzuki, Kenji Iwata, Hirokatsu Kataoka, Yutaka Satoh",
+    "in": "International Conference on Computer Vision (ICCV)",
+    "year": 2021,
+    "image": "tpdiyrjuyjktfvvw.png",
+    "mention": "",
+    "links": {
+        "Project Page": "https://cvpaperchallenge.github.io/Describing-and-Localizing-Multiple-Change-with-Transformers/",
+        "PDF": "https://arxiv.org/abs/2103.14146"
     }
   },
   "teobpmiiusnurdex": {
