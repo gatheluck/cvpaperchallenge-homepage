@@ -10,6 +10,18 @@
       "Project Page": "https://hirokatsukataoka16.github.io/Spatiotemporal-Initialization-for-3DCNNs/"
     }
   },
+  "eihkgmwfhtzzijdl": {
+    "title": "Formula-driven Supervised Learning with Recursive Tiling Patterns",
+    "author": "Hirokatsu Kataoka, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Yutaka Satoh",
+    "in": "ICCV 2021 Workshop on Human-centric Trustworthy Computer Vision (HTCV)",
+    "year": 2021,
+    "image": "eihkgmwfhtzzijdl.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://hirokatsukataoka16.github.io/Recursive-Tiling-Patterns/",
+      "PDF": "https://openaccess.thecvf.com/content/ICCV2021W/HTCV/html/Kataoka_Formula-Driven_Supervised_Learning_With_Recursive_Tiling_Patterns_ICCVW_2021_paper.html"
+    }
+  },
   "tpdiyrjuyjktfvvw": {
     "title": "Describing and Localizing Multiple Change with Transformers",
     "author": "Yue Qiu*, Shintaro Yamamoto*, Kodai Nakashima, Ryota Suzuki, Kenji Iwata, Hirokatsu Kataoka, Yutaka Satoh",
