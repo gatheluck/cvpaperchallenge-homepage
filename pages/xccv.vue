@@ -24,8 +24,9 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/07 </span>プログラムのページを更新し、第２期の応募を開始しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/06/15 </span>第１期の応募を締め切りました。</li>
-          <li class="text-justify mt-1"><span class="font-weight-bold">2021/05/25 </span>プログラムのページを公開し、応募を開始しました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2021/05/25 </span>プログラムのページを公開し、第１期の応募を開始しました。</li>
         </ul>
 
         <hr class="my-4">
@@ -38,7 +39,8 @@
         <h5 class="mt-4">スケジュール</h5>
         <b-container>
         <div class="text-center">
-          <b-img fluid :src="require('~/static/image/cover/xccv_300_crop_v2.png')" width="700"/>
+          <!-- <b-img fluid :src="require('~/static/image/cover/xccv_300_crop_v2.png')" width="700"/> -->
+          <b-img fluid :src="require('~/static/image/cover/xccv_2022_schedule.jpg')" width="700"/>
         </div>
         </b-container>
 
@@ -57,6 +59,7 @@
         <ul>
           <li class="text-justify mt-1"><a href="https://www.slideshare.net/cvpaperchallenge/cvpaperchallenge-cv-229354908" target="_blank">cvpaper.challenge 研究メンバー募集</a></li>
           <li class="text-justify mt-1"><a href="https://www.slideshare.net/cvpaperchallenge/award-242490677" target="_blank">コンピュータビジョン分野メジャー国際会議 Award までの道のり</a></li>
+          <li class="text-justify mt-1"><a href="https://adventar.org/calendars/6148" target="_blank">研究コミュニティ cvpaper.challenge 〜研究成果を世に送り出すまでのストーリー〜 Advent Calendar 2021</a></li>
         </ul>
         <hr class="my-4">
       </div>
@@ -76,7 +79,7 @@
 
         <h5 class="mt-4">応募方法</h5>
 
-        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQTiBHUeJ3mKMgNkpQ2Z1Jdj5iJ7K5_L6dSgBK_MXSDJ5frg/viewform?usp=sf_link" target="_blank">[プログラム 応募フォームはこちら（締め切りました）]</a></span></p>
+        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQTiBHUeJ3mKMgNkpQ2Z1Jdj5iJ7K5_L6dSgBK_MXSDJ5frg/viewform?usp=sf_link" target="_blank">[プログラム 応募フォームはこちら]</a></span></p>
 
         <p class="text-justify">上記の応募フォームから、必要項目を入力の上、ご応募ください。</p>
 
@@ -91,7 +94,7 @@
 
         <h5 class="mt-4">応募期限</h5>
 
-        <p class="text-justify">2021/06/15 (火) 23:59 JST （応募を締め切りました）</p>
+        <p class="text-justify">2022/02/25 (金) 23:59 JST </p>
 
         <hr class="my-4">
       </div>
@@ -123,8 +126,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
   components: {
     
