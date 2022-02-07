@@ -3,7 +3,7 @@
     <b-jumbotron header-level="4">
       <template slot="header">
         <b-container>
-          <div class="text-center">PRMU 研究メンターシッププログラム x cvpaper.challenge 研究メンバー 参加募集</div>
+          <div class="text-center">PRMU/CVIM RMP x cvpaper.challenge<br>研究メンバー 参加募集</div>
         </b-container>
       </template>
 
@@ -11,10 +11,10 @@
 
     <b-container>
       <div class="mt-4">
-        <h2>PRMU 研究メンターシッププログラム x cvpaper.challenge 研究メンバー</h2>
-        <p class="text-justify">cvpaper.challenge は、<a href="https://sites.google.com/view/prmu-rmp/conferences?authuser=0">PRMU研究メンターシッププログラム（PRMU RMP）</a>と連携して難関国際会議への投稿・採択を目指す新プログラムを実施致します。</p>
+        <h2>PRMU/CVIM RMP x cvpaper.challenge 研究メンバー</h2>
+        <p class="text-justify">cvpaper.challenge は、<a href="https://sites.google.com/view/prmu-rmp/conferences?authuser=0">PRMU/CVIM研究メンターシッププログラム（PRMU/CVIM RMP）</a>と連携して難関国際会議への投稿・採択を目指す新プログラムを実施致します。</p>
 
-        <p class="text-justify">cvpaper.challenge では、コンピュータビジョン<span class="font-weight-bold">分野の今を映し、トレンドを創ること</span>を大目標として様々な活動を行ってまいりました。その中でも、難関国際会議への投稿はトレンドを創るための通過点として、強力な手段になりうると考えております。この度、トップカンファレンス採択を目指す研究を支援するプログラムとして既に実績のある、電子情報通信学会 PRMU 研究会の PRMU RMP と連携をすることで、<span class="font-weight-bold">研究の初期段階から論文執筆の過程までを包括的に支援する</span>新しいプログラムを実施し、更なる分野の発展・トレンドの創生に貢献してまいります。</p>
+        <p class="text-justify">cvpaper.challenge では、コンピュータビジョン<span class="font-weight-bold">分野の今を映し、トレンドを創ること</span>を大目標として様々な活動を行ってまいりました。その中でも、難関国際会議への投稿はトレンドを創るための通過点として、強力な手段になりうると考えております。この度、トップカンファレンス採択を目指す研究を支援するプログラムとして既に実績のある、電子情報通信学会 PRMU 研究会及び情報処理学会 CVIM 研究会の PRMU/CVIM RMP と連携をすることで、<span class="font-weight-bold">研究の初期段階から論文執筆の過程までを包括的に支援する</span>新しいプログラムを実施し、更なる分野の発展・トレンドの創生に貢献してまいります。</p>
 
         <p class="text-justify">皆様の積極的なご応募をお待ちしております。</p>
         <hr class="my-4">
@@ -34,7 +34,8 @@
 
       <div class="mt-4">
         <h2 id="aist_recruitment">スケジュールとプログラム内容</h2>
-        <p class="text-justify">本プログラムに採択された方は、cvpaper.challenge の研究メンバーとして研究活動を開始します。プログラムの前半では、cvpaper.challenge 各グループリーダー（GL）を含む研究メンバーとの議論を通した、研究アイデアの創出や実験結果へのフィードバックの機会が提供されます。研究テーマについては適宜 PRMU RMP に共有され、マッチングが成立した段階で PRMU RMP のメンターの方とも議論が開始可能です。プログラム後半では、PRMU RMP に応募し、難関国際会議への採択を目指して論文執筆支援やリバッタル支援の機会が提供されます。</p>
+        <p class="text-justify">本プログラムに採択された方は、cvpaper.challenge の研究メンバーとして研究活動を開始します。プログラムの前半では、cvpaper.challenge 各グループリーダー（GL）を含む研究メンバーとの議論を通した、研究アイデアの創出や実験結果へのフィードバックの機会が提供されます。プログラム後半では、PRMU/CVIM RMP に応募し、難関国際会議への採択を目指して論文執筆支援やリバッタル支援の機会が提供されます。</p>
+        <p class="text-justify">※本プログラムが連携するのはCVPR 2023に向けたPRMU/CVIM RMPであり、2022年2月現在募集中の<span class="font-weight-bold">ECCV 2022に向けたPRMU/CVIM RMPとの連携はありません</span>のでご注意下さい。</p>
 
         <h5 class="mt-4">スケジュール</h5>
         <b-container>
@@ -50,7 +51,7 @@
           <li class="text-justify mt-1">slackでのチャットやオンラインミーティングを通じた、cvpaper.challenge の各グループリーダー（GL）を含む研究メンバーとの議論の機会の提供</li>
           <li class="text-justify mt-1">月１回行われる cvpaper.challenge グループの全体ミーティングにおける発表の機会とフィードバック</li>
           <li class="text-justify mt-1">実験における計算資源の補助（研究テーマに依存するため要相談）</li>
-          <li class="text-justify mt-1">内部査読を含む英語での論文執筆サポート（PRMU RMPと連携）</li>
+          <li class="text-justify mt-1">内部査読を含む英語での論文執筆サポート（PRMU/CVIM RMPと連携）</li>
         </ul>
 
         <h5 class="mt-4">参考</h5>
@@ -67,7 +68,7 @@
       <div class="mt-4">
         <h2 id="aist_recruitment">応募について</h2>
 
-        <p class="text-justify">本プログラムへの応募を希望される方は下記の応募条件をご確認の上、応募フォームからご応募下さい。また、本プログラムは PRMU 研究メンターシッププログラム（PRMU RMP）との連携を行うため、<a href="https://sites.google.com/view/prmu-rmp/conferences?authuser=0">PRMU RMPの例年の募集ページ</a>も事前にご確認をお願い致します。</p>
+        <p class="text-justify">本プログラムへの応募を希望される方は下記の応募条件をご確認の上、応募フォームからご応募下さい。また、本プログラムは PRMU/CVIM 研究メンターシッププログラム（PRMU/CVIM RMP）との連携を行うため、<a href="https://sites.google.com/view/prmu-rmp/conferences?authuser=0">PRMU/CVIM RMPの例年の募集ページ</a>も事前にご確認をお願い致します。</p>
 
         <h5 class="mt-4">応募条件</h5>
         <ul>
@@ -106,7 +107,7 @@
           <li class="text-justify mt-2"><span class="font-weight-bold">大学等で取り組んでいる研究テーマの持ち込みも可能でしょうか？</span><br>もちろん可能ですが、その場合には指導教員の方の許可をもらうようにお願い致します。また、ご所属の研究室等の方針次第ですが、研究テーマの見直しや拡張について議論することも可能です。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">学生以外も応募可能ですか？</span><br>はい、可能です。論文執筆時の共著者について制限事項が生じる場合にはプログラム応募時にご相談下さい。また、支援自体は可能ですが、研究メンバーの所属組織の都合で共著関係に制限が生じる可能性もございますので、予めご了承下さい。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">応募の結果はいつごろ分かりますか？</span><br>ご応募を頂いた順に順次ご連絡をさせて頂きます。ご応募から１週間以上返信がない場合はお手数ですが、コンタクト欄に記載の連絡先にメールでお問い合わせ下さい。</li>
-          <li class="text-justify mt-2"><span class="font-weight-bold">プログラムの途中に PRMU RMP への応募が含まれていますが、PRMU RMP に採択されなかった場合はどうなるのですか？</span><br>プログラムの前半の期間と同様に cvpaper.challenge の研究メンバーとして引き続き研究・投稿を行うことが可能です。cvpaper.challenge グループにも内部査読など論文執筆を支援するシステムがございます。</li>
+          <li class="text-justify mt-2"><span class="font-weight-bold">プログラムの途中に PRMU/CVIM RMP への応募が含まれていますが、PRMU/CVIM RMP に採択されなかった場合はどうなるのですか？</span><br>プログラムの前半の期間と同様に cvpaper.challenge の研究メンバーとして引き続き研究・投稿を行うことが可能です。cvpaper.challenge グループにも内部査読など論文執筆を支援するシステムがございます。</li>
           <li class="text-justify mt-2"><span class="font-weight-bold">プログラム終了後も cvpaper.challenge の研究メンバーとして活動することは可能ですか？</span><br>はい、可能です。年末に翌年の cvpaper.challenge の研究メンバーとしての継続の意志確認を行います。</li>
         </ul>
 
@@ -119,7 +120,7 @@
         <p class="text-justify">本プログラムへの応募につきましては、応募方法に記載の応募フォームからお願い致します。<br>それ以外のご連絡・ご質問は運営メンバー（cvpaper.challenge[at]gmail.com）を宛先にしてメールをお願いします。</p>
         <p class="text-justify">担当：<a href="http://hirokatsukataoka.net/">片岡裕雄</a>（産総研）、<a href="https://gatheluck.net/home/">福原吉博</a>（早稲田大学）</p>
 
-        <p class="text-justify">連携：<a href="https://sites.google.com/view/prmu-rmp/">PRMU研究メンターシッププログラム</a></p>
+        <p class="text-justify">連携：<a href="https://sites.google.com/view/prmu-rmp/">PRMU/CVIM研究メンターシッププログラム</a></p>
       </div>
     </b-container>
   </div>
