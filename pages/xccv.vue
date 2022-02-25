@@ -24,6 +24,7 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/25 </span>第２期の応募期限を延長しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/07 </span>プログラムのページを更新し、第２期の応募を開始しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/06/15 </span>第１期の応募を締め切りました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/05/25 </span>プログラムのページを公開し、第１期の応募を開始しました。</li>
@@ -40,7 +41,6 @@
         <h5 class="mt-4">スケジュール</h5>
         <b-container>
         <div class="text-center">
-          <!-- <b-img fluid :src="require('~/static/image/cover/xccv_300_crop_v2.png')" width="700"/> -->
           <b-img fluid :src="require('~/static/image/cover/xccv_2022_schedule.jpg')" width="700"/>
         </div>
         </b-container>
@@ -95,7 +95,7 @@
 
         <h5 class="mt-4">応募期限</h5>
 
-        <p class="text-justify">2022/02/25 (金) 23:59 JST </p>
+        <p class="text-justify">2022/03/11 (金) 23:59 JST（期限を延長しました）</p>
 
         <hr class="my-4">
       </div>
