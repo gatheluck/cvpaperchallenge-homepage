@@ -24,6 +24,7 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
+		  <li class="text-justify mt-1"><span class="font-weight-bold">2022/03/12 </span>第２期の応募を締め切りました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/25 </span>第２期の応募期限を延長しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/07 </span>プログラムのページを更新し、第２期の応募を開始しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/06/15 </span>第１期の応募を締め切りました。</li>
@@ -80,7 +81,7 @@
 
         <h5 class="mt-4">応募方法</h5>
 
-        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQTiBHUeJ3mKMgNkpQ2Z1Jdj5iJ7K5_L6dSgBK_MXSDJ5frg/viewform?usp=sf_link" target="_blank">[プログラム 応募フォームはこちら]</a></span></p>
+        <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQTiBHUeJ3mKMgNkpQ2Z1Jdj5iJ7K5_L6dSgBK_MXSDJ5frg/viewform?usp=sf_link" target="_blank">[プログラム 応募フォームはこちら（締め切りました）]</a></span></p>
 
         <p class="text-justify">上記の応募フォームから、必要項目を入力の上、ご応募ください。</p>
 
@@ -95,7 +96,7 @@
 
         <h5 class="mt-4">応募期限</h5>
 
-        <p class="text-justify">2022/03/11 (金) 23:59 JST（期限を延長しました）</p>
+        <p class="text-justify">2022/03/11 (金) 23:59 JST（応募を締め切りました）</p>
 
         <hr class="my-4">
       </div>
