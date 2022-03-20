@@ -1,4 +1,15 @@
 {
+  "qmkhxthmobharxly": {
+    "title": "Community-Driven Comprehensive Scientific Paper Summarization: Insight from cvpaper.challenge",
+    "author": "Shintaro Yamamoto, Hirokatsu Kataoka, Ryota Suzuki, Seitaro Shinagawa, Shigeo Morishima",
+    "in": "arXiv",
+    "year": 2022,
+    "image": "qmkhxthmobharxly.png",
+    "mention": "",
+    "links": {
+      "PDF": "https://arxiv.org/abs/2203.09109"
+    }
+  },
   "pbxxilohzehnsare": {
     "title": "Spatiotemporal Initialization for 3D CNNs with Generated Motion Patterns",
     "author": "Hirokatsu Kataoka, Eisuke Yamagata, Kensho Hara, Ryusuke Hayashi, Nakamasa Inoue",
