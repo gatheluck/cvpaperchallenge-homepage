@@ -30,6 +30,7 @@
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="Survey">
+            <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/cvpr2022_summaries">CVPR 2022</b-dropdown-item>
             <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/iccv2021_summaries">ICCV 2021</b-dropdown-item>
             <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/cvpr2021_summaries">CVPR 2021</b-dropdown-item>
             <b-dropdown-item target="_blank" href="http://xpaperchallenge.org/cv/survey/eccv2020_summaries/">ECCV 2020</b-dropdown-item>
