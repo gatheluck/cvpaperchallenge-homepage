@@ -1,4 +1,15 @@
 {
+  "jduwnfyokjmmcity": {
+    "title": "Neural Density-Distance Fields",
+    "author": "Itsuki Ueda, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shishido, Itaru Kitahara",
+    "in": "European Conference on Computer Vision (ECCV)",
+    "year": 2022,
+    "image": "jduwnfyokjmmcity.png",
+    "mention": "",
+    "links": {
+      "Project Page": "https://ueda0319.github.io/neddf/"
+    }
+  },
   "okellqflvjicpseh": {
     "title": "Tomato’s Ripeness Segmentor with Transformers",
     "author": "Risa Shinoda, Hirokatsu Kataoka, Kensho Hara",
