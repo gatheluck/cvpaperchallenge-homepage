@@ -22,6 +22,7 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/07/08 </span>CCCS 2022 は約800名の皆様にご登録・ご参加頂き無事終了しました。誠にありがとうございました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/06/17 </span>プログラムを公開し、参加登録の受付を開始しました。</li>
         </ul>
 
