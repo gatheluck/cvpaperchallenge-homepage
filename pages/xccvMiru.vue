@@ -43,7 +43,7 @@
         <h5 class="mt-4">スケジュール</h5>
         <b-container>
         <div class="text-center">
-          <b-img fluid :src="require('~/static/image/cover/xccv_2022_schedule.jpg')" width="700"/>
+          <b-img fluid :src="require('~/static/image/cover/xccv_2023_schedule.png')" width="700"/>
         </div>
         </b-container>
 
