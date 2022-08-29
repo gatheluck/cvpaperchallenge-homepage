@@ -73,11 +73,17 @@
               <li class="mt-1">ECCV 2022 投稿 2件、うち<b>1件採択</b></li>
             </ul>
           </li>
-          <li class="mt-1">2022年第2期 応募 8件
+          <li class="mt-1">2022年第2期 応募 6件
             <ul class="achievement-item-list">
               <li class="mt-1">CVPR 2023 投稿に向けて研究実施中</li>
             </ul>
           </li>
+        </ul>
+
+        <h3 class="mt-4">過去のテーマ例</h3>
+        <ul>
+          <li>Neural Field を用いて互恵的に制約された密度場と距離場の表現の提案</li>
+          <li>Intrinsic Dimension を用いた下流タスクに最適な事前学習モデルの選択手法の提案</li>
         </ul>
 
         <hr class="my-4">
