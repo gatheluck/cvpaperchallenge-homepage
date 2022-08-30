@@ -26,11 +26,11 @@
         <ul class="list-style-type: none">
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/09/01 </span>プログラムのページを更新し、第3期の応募を開始しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/07/28 </span>MIRU メンターシッププログラムとの連携を開始しました。</li>
-		  <li class="text-justify mt-1"><span class="font-weight-bold">2022/03/12 </span>第２期の応募を締め切りました。</li>
-          <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/25 </span>第２期の応募期限を延長しました。</li>
-          <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/07 </span>プログラムのページを更新し、第２期の応募を開始しました。</li>
-          <li class="text-justify mt-1"><span class="font-weight-bold">2021/06/15 </span>第１期の応募を締め切りました。</li>
-          <li class="text-justify mt-1"><span class="font-weight-bold">2021/05/25 </span>プログラムのページを公開し、第１期の応募を開始しました。</li>
+		  <li class="text-justify mt-1"><span class="font-weight-bold">2022/03/12 </span>第2期の応募を締め切りました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/25 </span>第2期の応募期限を延長しました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/07 </span>プログラムのページを更新し、第2期の応募を開始しました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2021/06/15 </span>第1期の応募を締め切りました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2021/05/25 </span>プログラムのページを公開し、第1期の応募を開始しました。</li>
         </ul>
 
         <hr class="my-4">
@@ -51,7 +51,7 @@
         <h3 class="mt-4">プログラム内容</h3>
         <ul>
           <li class="text-justify mt-1">slackでのチャットやオンラインミーティングを通じた、cvpaper.challenge の各グループリーダー（GL）を含む研究メンバーとの議論の機会の提供</li>
-          <li class="text-justify mt-1">月１回行われる cvpaper.challenge グループの全体ミーティングにおける発表の機会とフィードバック</li>
+          <li class="text-justify mt-1">月1回行われる cvpaper.challenge グループの全体ミーティングにおける発表の機会とフィードバック</li>
           <li class="text-justify mt-1">実験における計算資源の補助（研究テーマに依存するため要相談）</li>
           <li class="text-justify mt-1">内部査読を含む英語での論文執筆サポート（MIRU MP と連携）</li>
         </ul>
@@ -71,6 +71,7 @@
             <ul class="achievement-item-list">
               <li class="mt-1">CVPR 2022 投稿 2件</li>
               <li class="mt-1">ECCV 2022 投稿 2件、うち<b>1件採択</b></li>
+              <li class="mt-1">MIRU 2022 Short Oral 2件採択、うち1件 MIRU インタラクティブ発表賞</li>
             </ul>
           </li>
           <li class="mt-1">2022年第2期 応募 6件
@@ -120,7 +121,7 @@
         <h3 class="mt-4">応募期限</h3>
 
 
-        <p class="text-justify">第３期：2022/09/30 (金) 23:59 JST</p>
+        <p class="text-justify">第3期：2022/09/30 (金) 23:59 JST</p>
 
         <hr class="my-4">
       </div>
