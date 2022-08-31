@@ -20,16 +20,16 @@
     </b-container>
 
     <!-- Button -->
-    <!-- 
+    
 	<b-container>
     <div class="text-center mb-3">
       <b-button class="main-button" to="/xccv" size="lg" variant="primary">
-        <span>PRMU/CVIM RMP x cvpaper.challenge<br>研究メンバー募集ページ</span>
+        <span>MIRU MP x cvpaper.challenge<br>研究メンバー募集ページ</span>
         <font-awesome-icon icon="angle-right"/>
       </b-button>
     </div>
     </b-container>
-	-->
+	
 
     <b-container>
     <div class="text-center">
