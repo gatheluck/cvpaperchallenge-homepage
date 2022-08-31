@@ -26,7 +26,7 @@
             <b-dropdown-item to="/ccc/cccs2022">cvpaper.challenge conference summer 2022 (CCCS 2022)</b-dropdown-item>
             <b-dropdown-item to="/ccc/cccWinter2021">cvpaper.challenge conference winter 2021 (CCCW 2021)</b-dropdown-item>
             <b-dropdown-item to="/ccc/ccc2021">cvpaper.challenge conference 2021 (CCC 2021)</b-dropdown-item>
-            <b-dropdown-item to="/xccv">PRMU RMP x cvpaper.challenge</b-dropdown-item>
+            <b-dropdown-item to="/xccv">MIRU MP x cvpaper.challenge</b-dropdown-item>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown text="Survey">
