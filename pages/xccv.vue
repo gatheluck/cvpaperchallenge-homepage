@@ -24,9 +24,10 @@
       <div class="mt-4">
         <h2>News</h2>
         <ul class="list-style-type: none">
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/10/01 </span>第3期の応募期限を延長しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/09/01 </span>プログラムのページを更新し、第3期の応募を開始しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/07/28 </span>MIRU メンターシッププログラムとの連携を開始しました。</li>
-		  <li class="text-justify mt-1"><span class="font-weight-bold">2022/03/12 </span>第2期の応募を締め切りました。</li>
+          <li class="text-justify mt-1"><span class="font-weight-bold">2022/03/12 </span>第2期の応募を締め切りました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/25 </span>第2期の応募期限を延長しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2022/02/07 </span>プログラムのページを更新し、第2期の応募を開始しました。</li>
           <li class="text-justify mt-1"><span class="font-weight-bold">2021/06/15 </span>第1期の応募を締め切りました。</li>
@@ -121,7 +122,7 @@
         <h3 class="mt-4">応募期限</h3>
 
 
-        <p class="text-justify">第3期：2022/09/30 (金) 23:59 JST</p>
+        <p class="text-justify">第3期：2022/10/14 (金) 23:59 JST (延長しました)</p>
 
         <hr class="my-4">
       </div>
