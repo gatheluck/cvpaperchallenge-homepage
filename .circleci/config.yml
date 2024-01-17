@@ -2,13 +2,13 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: cimg/node:18.19.0
+      - image: cimg/node:14
     working_directory: ~/project
     steps:
       - checkout
       - run:
           name: update-npm
-          command: 'sudo npm install -g npm@latest'
+          command: 'sudo npm install -g npm@6.14.8'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
