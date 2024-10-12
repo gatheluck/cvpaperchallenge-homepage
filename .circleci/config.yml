@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: circleci/node:14
+      - image: node:20.18.0-slim
     environment:
       NODE_OPTIONS: "--openssl-legacy-provider"
     working_directory: ~/project
