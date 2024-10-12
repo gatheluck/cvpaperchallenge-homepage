@@ -23,6 +23,7 @@
           
 
           <b-nav-item-dropdown text="Program">
+            <b-dropdown-item to="/ccc/cccs2024">cvpaper.challenge conference summer 2024 (CCCS 2024)</b-dropdown-item>
             <b-dropdown-item to="/ccc/cccw2023">cvpaper.challenge conference winter 2023 (CCCW 2023)</b-dropdown-item>
             <b-dropdown-item to="/ccc/cccw2022">cvpaper.challenge conference winter 2022 (CCCW 2022)</b-dropdown-item>
             <b-dropdown-item to="/ccc/cccs2022">cvpaper.challenge conference summer 2022 (CCCS 2022)</b-dropdown-item>
