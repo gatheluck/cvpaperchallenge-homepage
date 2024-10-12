@@ -3,6 +3,8 @@ jobs:
   build:
     docker: 
       - image: circleci/node:14
+    environment:
+      NODE_OPTIONS: "--openssl-legacy-provider"
     working_directory: ~/project
     steps:
       - checkout
@@ -28,6 +30,8 @@ jobs:
   deploy:
     machine:
       enabled: true
+    environment:
+      NODE_OPTIONS: "--openssl-legacy-provider"
     working_dirctory: ~/project
     steps:
       - add_ssh_keys:

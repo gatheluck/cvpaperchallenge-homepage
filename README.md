@@ -8,6 +8,10 @@
 # install dependencies
 $ yarn install
 
+# Specify old OpenSSL provider to avoid error
+# https://qiita.com/kokogento/items/f5b176d05c621223670b
+$ export NODE_OPTIONS=--openssl-legacy-provider
+
 # serve with hot reload at localhost:3000
 $ yarn dev
 
