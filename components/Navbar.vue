@@ -16,7 +16,7 @@
 
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/publications" :active="isActive('/publications')">Publications</b-nav-item>
+          <b-nav-item target="_blank" href="https://scholar.google.com/citations?user=IC9fnDMAAAAJ">Publications</b-nav-item>
           <b-nav-item to="/members" :active="isActive('/members')">Members</b-nav-item>
           <b-nav-item to="/resources" :active="isActive('/resources')">Resources</b-nav-item>
           <b-nav-item to="/recruit" :active="isActive('/recruit')">Recruit</b-nav-item>
