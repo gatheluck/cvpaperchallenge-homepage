@@ -21,6 +21,15 @@
     <b-container>
       <div class="mt-4">
         <h2>Survey</h2>
+        <b-card title="LLMサーベイ"
+                class="mt-2 with-shadow">
+          <b-card-text>
+            CV分野のトップ会議に採択された論文をLLMで自動要約し、まとめ資料を公開しています。
+          </b-card-text>
+
+          <a target="_blank" href="https://d2rfv62b9x9z0y.cloudfront.net/">[Project page]</a>
+        </b-card>
+
         <b-card title="網羅的サーベイ"
                 class="mt-2 with-shadow">
           <b-card-text>
