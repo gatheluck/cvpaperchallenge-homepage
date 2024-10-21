@@ -1,33 +1,65 @@
 <template>
-  <b-card class="with-shadow">
-    <b-media>
-      <b-img
-        v-if="member.image"
-        slot="aside"
-        :src="member.image"
-        width="100"
-        height="100"
-        alt="placeholder"
-      />
-      <b-img
-        v-else
-        slot="aside"
-        :src="require('~/static/image/avatar/members.jpg')"
-        width="100"
-        height="100"
-        alt="placeholder"
-      />
-      <h5 class="mt-0">{{ member.name }}</h5>
-      <p>{{ member.affiliation }}</p>
-      <a v-if="member.url" :href="member.url" target="_blank" class="btn stretched-link"></a>
-    </b-media>
-  </b-card>
+  <div class="card">
+    <a :href="member.url" target="_blank" class="card-link">
+      <img :src="member.image" alt="Profile picture" class="card-img">
+      <div class="card-details">
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.role }}</p>
+        <p>{{ member.affiliation }}</p>
+      </div>
+    </a>
+  </div>
 </template>
 
 <script>
 export default {
   props: {
-    member: Object
+    member: {
+      type: Object,
+      required: true
+    }
   }
-};
+}
 </script>
+
+<style scoped>
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 250px;
+}
+
+.card-details {
+  text-align: left;
+  padding: 16px;
+}
+
+h3 {
+  margin: 8px 0;
+  font-size: 1.5em;
+  color: inherit;
+}
+
+p {
+  margin: 4px 0;
+  color: #666;
+}
+</style>

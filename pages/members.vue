@@ -10,63 +10,65 @@
       <template slot="lead">
         <b-container>
           <div class="text-center">
-            ご参加になりたい方は
-			<nuxt-link to="/recruit">メンバー募集ページ</nuxt-link>
-			をご覧下さい。
-            <!-- <a href="https://twitter.com/NlpaperChalleng" target="_blank">@NlpaperChalleng</a>へDMください。 -->
+            100人以上の研究メンバーと1,700人以上のサーベイメンバーが所属を超えて活動しています。</br>
+            ご参加になりたい方は<nuxt-link to="/recruit">メンバー募集ページ</nuxt-link>をご覧下さい。
           </div>
         </b-container>
       </template>
     </b-jumbotron>
 
-    <b-container v-if="!isLoading">
-      <b-row v-for="([ member1, member2 ], idx) in memberPairs" :key="idx" class="mb-2">
-        <b-col class="mb-2" cols="12" md="6">
-          <member-card :member="member1"/>
-        </b-col>
-        <b-col v-if="member2">
-          <member-card :member="member2"/>
+    <b-container>
+      <b-row>
+        <b-col
+          v-for="(member, index) in members"
+          :key="index"
+          cols="12" sm="6" md="4" lg="3"
+          class="d-flex mb-4"
+        >
+          <MemberCard :member="member" class="card-item" />
         </b-col>
       </b-row>
     </b-container>
-    <p v-else class="text-center">
-      <font-awesome-icon class="mr-5" :icon="['fas', 'spinner']" pulse size="2x"/>
-    </p>
+
+    <b-container class="mt-4">
+      <div style="font-size:1.2em">
+        <p>総勢100名を超えるメンバーが研究活動を行っています。</p>
+      </div>
+    </b-container>
   </div>
 </template>
 
 <script>
 import MemberCard from "~/components/MemberCard.vue";
-import axios from "axios";
+
+const members = require('~/data/members.json').content;
 
 export default {
   components: {
     MemberCard
   },
-  asyncData() {
-    let members = require('~/static/data/members.json').content;
+  data() {
     return {
-      members,
-      isLoading: false
-    }
-  },
-  computed: {
-    memberPairs() {
-      return this.members.reduce((prev, curr) => {
-        if (prev.length == 0) {
-          return [[curr]];
-        } else {
-          if (prev.slice(-1)[0].length == 1) {
-            return [
-              ...prev.slice(0, prev.length - 1),
-              [...prev.slice(-1)[0], curr]
-            ];
-          } else {
-            return [...prev, [curr]];
-          }
-        }
-      }, []);
+      members
     }
   }
-};
+}
 </script>
+
+<style>
+.card-wrapper {
+  width: 250px;
+}
+
+b-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+b-col {
+  display: flex;
+  justify-content: flex-start;
+}
+</style>
