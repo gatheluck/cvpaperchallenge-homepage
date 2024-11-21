@@ -3,7 +3,7 @@
       <b-jumbotron header-level="4">
         <template slot="header">
           <b-container>
-            <div class="text-center">cvpaper.challenge<br>conference winter 2023</div>
+            <div class="text-center">cvpaper.challenge<br>conference winter 2024</div>
           </b-container>
         </template>
   
@@ -13,7 +13,7 @@
         <div class="mt-4">
           <b-container>
           <div class="text-center">
-            <b-img fluid :src="require('~/static/image/cover/cccw2023.png')" width="700"/>
+            <b-img fluid :src="require('~/static/image/cover/cccw2024.jpeg')" width="700"/>
           </div>
           </b-container>
         </div>
@@ -22,7 +22,7 @@
         <div class="mt-4">
           <h2>News</h2>
           <ul class="list-style-type: none">
-            <li class="text-justify mt-1"><span class="font-weight-bold">2024/01/13 </span>プログラムを公開し、参加登録の受付を開始しました。</li>
+            <li class="text-justify mt-1"><span class="font-weight-bold">2024/11/12 </span>プログラムを公開し、参加登録の受付を開始しました。</li>
           </ul>
   
           <hr class="my-4">
@@ -30,8 +30,8 @@
   
         <div class="mt-4">
           <h2 id="aist_recruitment">参加登録について</h2>
-          <p class="text-justify">cvpaper.challenge conference winter 2023 (CCCW 2023) への参加を希望される方は下記のフォームから事前の参加登録をお願い致します。</p>
-          <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe8L6BSeN6-vPfILwUjDkKILSvwwbfqwUNHyZEf0rMsrptz3w/viewform" target="_blank">[参加登録はこちら]</a></span></p>
+          <p class="text-justify">cvpaper.challenge conference winter 2024 (CCCW 2024) への参加を希望される方は下記のフォームから事前の参加登録をお願い致します。</p>
+          <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfYEdEy1EMCgQRkpeYQL46ob54ilB3YRypsqZNBMB5EhlQzww/viewform" target="_blank">[参加登録はこちら]</a></span></p>
           <p class="text-justify">※<a href="https://research-p.com/" target="_blank">ResearchPort様のイベントページ</a>からも同じフォームを経由して参加登録をして頂くことが可能です。</p>
         
           <hr class="my-4">
