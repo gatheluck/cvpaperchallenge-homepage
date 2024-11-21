@@ -32,7 +32,7 @@
           <h2 id="aist_recruitment">参加登録について</h2>
           <p class="text-justify">cvpaper.challenge conference summer 2024 (CCCS 2024) への参加を希望される方は下記のフォームから事前の参加登録をお願い致します。</p>
           <p class="text-justify"><span class="font-weight-bold" style="font-size:1.5em"><a href="https://docs.google.com/forms/d/e/1FAIpQLSddv8WGnlz3TGfHrCnnoJLyzUfIYwEOR7OeCj_8WenKuqsR6g/viewform" target="_blank">[参加登録はこちら]</a></span></p>
-          <p class="text-justify">※<a href="https://research-p.com/event/1885" target="_blank">ResearchPort様のイベントページ</a>からも同じフォームを経由して参加登録をして頂くことが可能です。</p>
+          <p class="text-justify">※<a href="https://research-p.com/" target="_blank">ResearchPort様のイベントページ</a>からも同じフォームを経由して参加登録をして頂くことが可能です。</p>
         
           <hr class="my-4">
         </div> 
