@@ -18,7 +18,8 @@
     </b-jumbotron>
 
     <b-container>
-      <b-row>
+      <h2>Headquarters team</h2>
+	  <b-row>
         <b-col
           v-for="(member, index) in members"
           :key="index"

@@ -3,7 +3,7 @@
         {
             "Timestamp": "2020-01-01T00:04:52.000Z",
             "name": "片岡 裕雄",
-            "role": "HQ / 主宰",
+            "role": "主宰",
             "affiliation": "産総研 / Oxford VGG",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/hirokatsu-kataoka.jpg",
             "url": "http://hirokatsukataoka.net"
@@ -11,15 +11,15 @@
         {
             "Timestamp": "2020-02-17T13:36:25.302Z",
             "name": "福原 吉博",
-            "role": "HQ / System Admin",
-            "affiliation": "ExaWizards / 産総研 / 早稲田大学",
+            "role": "System Admin",
+            "affiliation": "ExaWizards / 産総研 / 早大",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/yoshihiro-fukuhara.jpg",
             "url": "https://gatheluck.net"
         },
         {
             "Timestamp": "2020-02-17T13:36:25.302Z",
             "name": "中村 凌",
-            "role": "HQ / CCC / SatAI.challenge 主宰",
+            "role": "CCC / SatAI.challenge 主宰",
             "affiliation": "Tenchijin",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/ryo-nakamura.jpg",
             "url": "https://ryoo-portfolio.netlify.app"
@@ -27,7 +27,7 @@
         {
             "Timestamp": "2020-02-17T13:36:25.302Z",
             "name": "山田 亮佑",
-            "role": "HQ / CCC / MIRU Mentorship Program",
+            "role": "CCC / MIRU Mentorship",
             "affiliation": "産総研 / UTN FunAI Lab",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/ryosuke-yamada.jpg",
             "url": "https://www.ryosuke-yamada.net"
@@ -35,15 +35,23 @@
         {
             "Timestamp": "2020-02-17T13:36:25.302Z",
             "name": "牧原 昂志",
-            "role": "HQ / robotpaper.challenge 主宰",
+            "role": "robotpaper.challenge 主宰",
             "affiliation": "産総研 PD",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/koshi-makihara.jpg",
             "url": "https://scholar.google.co.jp/citations?user=h0SRrTgAAAAJ"
         },
         {
             "Timestamp": "2020-02-17T13:36:25.302Z",
+            "name": "大塚 大地",
+            "role": "TDU-Vision 主宰",
+            "affiliation": "産総研",
+            "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/otsuka-daichi.jpg",
+            "url": "https://sites.google.com/view/otsuka-profile"
+        },
+        {
+            "Timestamp": "2020-02-17T13:36:25.302Z",
             "name": "長谷部 航平",
-            "role": "HQ / 事務局",
+            "role": "事務局",
             "affiliation": "ResearchPort",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/kohei-hasebe.jpg",
             "url": "https://www.linkedin.com/in/kohei-hasebe-b17630233"
@@ -51,18 +59,10 @@
         {
             "Timestamp": "2020-02-17T13:36:25.302Z",
             "name": "高田 雄太",
-            "role": "HQ / 事務局",
+            "role": "事務局",
             "affiliation": "Youth Communications",
             "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/yuta-takada.jpg",
             "url": "https://www.linkedin.com/in/takada-yuta-71836b72"
-        },
-        {
-            "Timestamp": "2020-02-17T13:36:25.302Z",
-            "name": "大塚 大地",
-            "role": "HQ / TDU-Vision 主宰",
-            "affiliation": "産総研",
-            "image": "https://xccv-tmp.s3.ap-northeast-1.amazonaws.com/homepage-members/placeholder.jpg",
-            "url": "https://example.com/daichi-otsuka"
         }
     ]
 }
